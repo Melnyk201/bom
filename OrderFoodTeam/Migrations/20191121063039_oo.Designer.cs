@@ -10,8 +10,8 @@ using OrderFoodTeam;
 namespace OrderFoodTeam.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20191117145129_register")]
-    partial class register
+    [Migration("20191121063039_oo")]
+    partial class oo
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

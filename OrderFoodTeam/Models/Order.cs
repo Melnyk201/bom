@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace OrderFood.Web.Models
+namespace OrderFoodTeam.Models
 {
     public class Order
     {

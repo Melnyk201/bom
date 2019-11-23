@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace OrderFoodTeam.Data.Migrations
+namespace OrderFoodTeam.Migrations
 {
-    public partial class db2 : Migration
+    public partial class oo : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
