@@ -9,24 +9,32 @@
             <div class="col-md-12">
                 <h2>@ViewBag.Title</h2>
                 <hr>
-                <div class="itemMenu">
-                    @foreach (var item in Model)
-                    {
+                @foreach (var item in Model)
+                {
+            <div class="itemMenu" style="margin-bottom:30px">
 
-                        <div class="row">
-                            <div class="col-md-4">
-                               
-                            </div>
-                            <div class="col-md-8 boxProduct">
-                                <h5>@Html.DisplayFor(modelItem => item.Name)</h5>
-                                <p>
-                                    @Html.DisplayFor(modelItem => item.Description)
-                                </p>
-                                <p class="price">Price : <span>@Html.DisplayFor(modelItem => item.Price)</span></p>
-                            </div>
-                        </div>
-                     }
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="~/img/@item.Image.Url" alt="Alternate Text" class="img-thumbnail" />
+                    </div>
+                    <div class="col-md-6 boxProduct">
+                        <h5>@Html.DisplayFor(modelItem => item.Name)</h5>
+                        <p>
+                            @Html.DisplayFor(modelItem => item.Description)
+                        <p>@Html.DisplayFor(modelItem => item.Measurement)</p>
+                        </p>
+                        <p class="price">Price : <span>@Html.DisplayFor(modelItem => item.Price)</span></p>
+                    </div>
+                    <div class="col-md-4">
+                        <a asp-action="Edit" asp-route-id="@item.id">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.id">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.id">Delete</a>
+                    </div>
                 </div>
+                
+            </div>
+                }
                 <nav aria-label="Page navigation example">
                     <ul class="pagination">
                         <li class="page-item">
