@@ -13,7 +13,7 @@ namespace OrderFoodTeam.Controllers
 {
     public class ProductController : Controller
     {
-        private const int PAGE_SIZE = 6;
+        private const int PAGE_SIZE = 2;
         private readonly AppDbContext _context;
 
         public ProductController(AppDbContext context)
@@ -26,6 +26,9 @@ namespace OrderFoodTeam.Controllers
         public ActionResult Menu(int page = 1)
         {
             ViewBag.CurrentPage = page;
+            // var count = dbConnection.Query<int>($"SELECT COUNT(id) FROM address {where}", new { search }).First();
+            var count = _context.Product.Select(i => i.id).Count();
+            ViewBag.PageCount = (int)Math.Ceiling((double)count / PAGE_SIZE);
             return View(_context.Product.Include(i => i.Image).OrderBy(p => p.id).Skip((page - 1) * PAGE_SIZE).Take(PAGE_SIZE).ToList());
         }
 
