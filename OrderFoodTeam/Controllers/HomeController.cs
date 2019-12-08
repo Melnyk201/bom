@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using OrderFoodTeam.Models;
 
@@ -11,16 +12,19 @@ namespace OrderFoodTeam.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        private readonly AppDbContext _context;
+
+        public HomeController(AppDbContext context)
         {
-            _logger = logger;
+            _context = context;
         }
 
-        public IActionResult Index()
+        public ActionResult Index()
         {
-            return View();
+            
+            return View(_context.Product.Include(i => i.Image).OrderBy(p => p.id).Take(4).ToList()
+                );
         }
 
         public IActionResult Menu()

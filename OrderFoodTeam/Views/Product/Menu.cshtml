@@ -1,59 +1,104 @@
-﻿@model IEnumerable<OrderFoodTeam.Models.Product>
+﻿@using Microsoft.AspNetCore.Identity
+@inject UserManager<IdentityUser> UserManager
+@model IEnumerable<OrderFoodTeam.Models.Product>
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
     ViewBag.Title = "Menu";
 }
+@{
+    
+    var currentLink = $"/address?page={ViewBag.CurrentPage}";
+   
+
+    
+}
 <div class="menu">
     <div class="container">
-        <div class="row">
+        <div class="row>
             <div class="col-md-12">
                 <h2>@ViewBag.Title</h2>
                 <hr>
-                @foreach (var item in Model)
+                @if (User.IsInRole("admin"))
                 {
-            <div class="itemMenu" style="margin-bottom:30px">
-
-
-                <div class="row">
-                    <div class="col-md-4">
-                        <img src="~/img/@item.Image.Url" alt="Alternate Text" class="img-thumbnail" />
-                    </div>
-                    <div class="col-md-6 boxProduct">
-                        <h5>@Html.DisplayFor(modelItem => item.Name)</h5>
-                        <p>
-                            @Html.DisplayFor(modelItem => item.Description)
-                        <p>@Html.DisplayFor(modelItem => item.Measurement)</p>
-                        </p>
-                        <p class="price">Price : <span>@Html.DisplayFor(modelItem => item.Price)</span></p>
-                    </div>
-                    <div class="col-md-4">
-                        <a asp-action="Edit" asp-route-id="@item.id">Edit</a> |
-                        <a asp-action="Details" asp-route-id="@item.id">Details</a> |
-                        <a asp-action="Delete" asp-route-id="@item.id">Delete</a>
-                    </div>
-                </div>
-                
-            </div>
+                    <p>
+                        <a asp-action="Create">Create New</a>
+                    </p>
                 }
-                <nav aria-label="Page navigation example">
-                    <ul class="pagination">
-                        <li class="page-item">
-                            <a class="page-link" href="#" aria-label="Previous">
-                                <span aria-hidden="true">&laquo;</span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                        </li>
-                        <li class="page-item"><a class="page-link" href="#">1</a></li>
-                        <li class="page-item"><a class="page-link" href="#">2</a></li>
-                        <li class="page-item"><a class="page-link" href="#">3</a></li>
-                        <li class="page-item">
-                            <a class="page-link" href="#" aria-label="Next">
-                                <span aria-hidden="true">&raquo;</span>
-                                <span class="sr-only">Next</span>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
+                <div class="row ">
+
+
+                    @foreach (var item in Model)
+                    {
+
+                        <div class="col-md-4">
+
+                            <div class="itemMenu" style="margin-bottom:30px">
+
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <img src="~/img/@item.Image.Url" alt="Alternate Text" class="img-thumbnail center-block" />
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <h5>@Html.DisplayFor(modelItem => item.Name)</h5>
+                                    <p>
+                                        @Html.DisplayFor(modelItem => item.Description)
+                                    </p>
+                                    <p class="price">Measurment :<span>@Html.DisplayFor(modelItem => item.Measurement)</span></p>
+
+                                    <p class="price">Price : <span>@Html.DisplayFor(modelItem => item.Price)</span></p>
+
+
+
+                                    @if (User.IsInRole("admin"))
+                                    {
+                                        <div class="col-md-3">
+                                            <a asp-action="Edit" asp-route-id="@item.id">Edit</a> |
+                                            <!--<a asp-action="Details" asp-route-id="@item.id">Details</a>-->
+                                            <a asp-action="Delete" asp-route-id="@item.id">Delete</a>
+                                        </div>
+                                    }
+                                </div>
+
+                            </div>
+
+                        </div>
+                    }
+                </div>
+                <tr>
+                    <td colspan="8" class="text-center">
+                        <ul class="pagination">
+                            @if (ViewBag.CurrentPage == 1)
+                            {
+                                <li class="page-item disabled"><span class="page-link">Попередній</span></li>
+                            }
+                            else
+                            {
+                                <li class="page-item"><a class="page-link" href="/product/menu?page=@(ViewBag.CurrentPage - 1)">Попередній</a></li>
+                            }
+                            @for (int i = 1; i <= ViewBag.PageCount; i++)
+                            {
+                                if (i == ViewBag.CurrentPage)
+                                {
+                                    <li class="page-item active"><span class="page-link"> @i<span class="sr-only">(current)</span></span></li>
+                                }
+                                else
+                                {
+                                    <li class="page-item"><a class="page-link" href="/product?page=@i">@i</a></li>
+                                }
+                            }
+                            @if (ViewBag.CurrentPage == ViewBag.PageCount)
+                            {
+                                <li class="page-item disabled"><span class="page-link">Наступний</span></li>
+                            }
+                            else
+                            {
+                                <li class="page-item"><a class="page-link" href="/product/menu?page=@(ViewBag.CurrentPage + 1)">Наступний</a></li>
+                            }
+                        </ul>
+                    </td>
+                </tr>
 
             </div>
         </div>

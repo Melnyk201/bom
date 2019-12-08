@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -12,6 +13,7 @@ namespace OrderFoodTeam.Controllers
 {
     public class ProductController : Controller
     {
+        private const int PAGE_SIZE = 6;
         private readonly AppDbContext _context;
 
         public ProductController(AppDbContext context)
@@ -20,9 +22,11 @@ namespace OrderFoodTeam.Controllers
         }
 
         // GET: Product
-        public async Task<IActionResult> Menu()
+        //[Authorize(Roles = "admin")]
+        public ActionResult Menu(int page = 1)
         {
-            return View(await _context.Product.Include(i => i.Image).ToListAsync());
+            ViewBag.CurrentPage = page;
+            return View(_context.Product.Include(i => i.Image).OrderBy(p => p.id).Skip((page - 1) * PAGE_SIZE).Take(PAGE_SIZE).ToList());
         }
 
         // GET: Product/Details/5

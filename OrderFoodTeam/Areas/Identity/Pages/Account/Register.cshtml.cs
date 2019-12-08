@@ -22,18 +22,22 @@ namespace OrderFoodTeam.Areas.Identity.Pages.Account
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly UserManager<IdentityUser> _userManager;
         private readonly ILogger<RegisterModel> _logger;
+        //private readonly RoleManager<IdentityRole> _roleManager;
         private readonly IEmailSender _emailSender;
 
         public RegisterModel(
             UserManager<IdentityUser> userManager,
             SignInManager<IdentityUser> signInManager,
             ILogger<RegisterModel> logger,
-            IEmailSender emailSender)
+            IEmailSender emailSender
+            //,RoleManager<IdentityRole> roleManager
+            )
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _logger = logger;
             _emailSender = emailSender;
+            //_roleManager = roleManager;
         }
 
         [BindProperty]
@@ -61,13 +65,13 @@ namespace OrderFoodTeam.Areas.Identity.Pages.Account
             [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
             public string ConfirmPassword { get; set; }
 
-            [Required]
+           /* [Required]
             [Display(Name = "Login Name")]
             public string UserName { get; set; }
             [Required]
             [DataType(DataType.PhoneNumber)]
             [Display(Name = "NumberPhone")]
-            public string PhoneNumber { get; set; }
+            public string PhoneNumber { get; set; }*/
         }
 
         public async Task OnGetAsync(string returnUrl = null)
@@ -82,7 +86,7 @@ namespace OrderFoodTeam.Areas.Identity.Pages.Account
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
             if (ModelState.IsValid)
             {
-                var user = new IdentityUser { UserName = Input.UserName, Email = Input.Email, PhoneNumber = Input.PhoneNumber};
+                var user = new IdentityUser { UserName = Input.Email, Email = Input.Email};
                 var result = await _userManager.CreateAsync(user, Input.Password);
                 if (result.Succeeded)
                 {
@@ -105,6 +109,7 @@ namespace OrderFoodTeam.Areas.Identity.Pages.Account
                     }
                     else
                     {
+                        //await _userManager.AddToRoleAsync(user, "User");
                         await _signInManager.SignInAsync(user, isPersistent: false);
                         return LocalRedirect(returnUrl);
                     }

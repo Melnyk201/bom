@@ -19,7 +19,6 @@ namespace OrderFoodTeam
        
         public DbSet<Client> Client { get; set; }
 
-        public DbSet<OrderPruduct> OrderPruduct { get; set; }
         public DbSet<Product> Product { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

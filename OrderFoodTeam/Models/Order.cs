@@ -15,7 +15,7 @@ namespace OrderFoodTeam.Models
         public Table Table { get; set; }
         public Client Client { get; set; }
               
-        public ICollection<OrderPruduct> OrderPruduct { get; set; }
+        
      
 
 

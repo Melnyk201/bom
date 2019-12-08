@@ -142,7 +142,6 @@ C:\Users\Olha Melnyk\Desktop\OrderFoodTeam\OrderFoodTeam\obj\Debug\netcoreapp3.0
 C:\Users\Olha Melnyk\Desktop\OrderFoodTeam\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\Olha Melnyk\Desktop\OrderFoodTeam\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 C:\Users\Olha Melnyk\Desktop\OrderFoodTeam\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
-C:\Users\Olha Melnyk\Desktop\OrderFoodTeam\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Home\Menu.cshtml.g.cs
 C:\Users\Olha Melnyk\Desktop\OrderFoodTeam\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Product\Create.cshtml.g.cs
 C:\Users\Olha Melnyk\Desktop\OrderFoodTeam\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Product\Delete.cshtml.g.cs
 C:\Users\Olha Melnyk\Desktop\OrderFoodTeam\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Product\Details.cshtml.g.cs
