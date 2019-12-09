@@ -27,7 +27,6 @@ C:\Users\Olha Melnyk\Desktop\OrderFoodTeam\OrderFoodTeam\bin\Debug\netcoreapp3.0
 C:\Users\Olha Melnyk\Desktop\OrderFoodTeam\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\Olha Melnyk\Desktop\OrderFoodTeam\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\Olha Melnyk\Desktop\OrderFoodTeam\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Olha Melnyk\Desktop\OrderFoodTeam\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.csprojAssemblyReference.cache
 C:\Users\Olha Melnyk\Desktop\OrderFoodTeam\OrderFoodTeam\obj\Debug\netcoreapp3.0\staticwebassets\OrderFoodTeam.StaticWebAssets.Manifest.cache
 C:\Users\Olha Melnyk\Desktop\OrderFoodTeam\OrderFoodTeam\obj\Debug\netcoreapp3.0\staticwebassets\OrderFoodTeam.StaticWebAssets.xml
 C:\Users\Olha Melnyk\Desktop\OrderFoodTeam\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.RazorAssemblyInfo.cache
@@ -169,3 +168,5 @@ C:\Users\Olha Melnyk\Desktop\OrderFoodTeam\OrderFoodTeam\bin\Debug\netcoreapp3.0
 C:\Users\Olha Melnyk\Desktop\OrderFoodTeam\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.AspNet.Identity.Core.dll
 C:\Users\Olha Melnyk\Desktop\OrderFoodTeam\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Olha Melnyk\Desktop\OrderFoodTeam\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Olha Melnyk\Desktop\OrderFoodTeam\OrderFoodTeam\bin\Debug\netcoreapp3.0\libman.json
+C:\Users\Olha Melnyk\Desktop\OrderFoodTeam\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.csprojAssemblyReference.cache

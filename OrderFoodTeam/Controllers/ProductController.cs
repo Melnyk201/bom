@@ -27,23 +27,29 @@ namespace OrderFoodTeam.Controllers
         public ActionResult Menu(int page = 1, int productIdentity = 0)
         {
             
-
             var Product = new List<Product>();
             ProductEnum valueDish = ProductEnum.Dish;
             ProductEnum valueDrink = ProductEnum.Drink;
             ViewBag.CurrentPage = page;
-            ViewBag.ProductIdentity = productIdentity;
-            var count = _context.Product.Select(i => i.id).Count();
-            ViewBag.PageCount = (int)Math.Ceiling((double)count / PAGE_SIZE);
-            /*if (productIdentity == 0)
-                Product.Where(p => p.ProductEnum == valueDish);
-            else if (productIdentity == 1)
-                    Product.Where(p => p.ProductEnum == valueDrink);*/
+           
+            
+            /*switch (productIdentity)
+            {
+                case 0:
+                    Product = _context.Product.Include(i => i.Image).Where(p => p.ProductEnum == valueDish).OrderBy(p => p.id).Skip((page - 1) * PAGE_SIZE).Take(PAGE_SIZE).ToList();
+                    break;
+                case 1:
+                    Product = _context.Product.Include(i => i.Image).Where(p => p.ProductEnum == valueDrink).OrderBy(p => p.id).Skip((page - 1) * PAGE_SIZE).Take(PAGE_SIZE).ToList();
+                    break;
+            }    */        
 
             if (productIdentity == 0)
                 Product = _context.Product.Include(i => i.Image).Where(p => p.ProductEnum == valueDish).OrderBy(p => p.id).Skip((page - 1) * PAGE_SIZE).Take(PAGE_SIZE).ToList();
             else if (productIdentity == 1)  Product = _context.Product.Include(i => i.Image).Where(p => p.ProductEnum == valueDrink).OrderBy(p => p.id).Skip((page - 1) * PAGE_SIZE).Take(PAGE_SIZE).ToList();
             else Product = _context.Product.Include(i => i.Image).OrderBy(p => p.id).Skip((page - 1) * PAGE_SIZE).Take(PAGE_SIZE).ToList();
+            ViewBag.ProductIdentity = productIdentity;
+            var count = _context.Product.Select(i => i.id).Count();
+            ViewBag.PageCount = (int)Math.Ceiling((double)count / PAGE_SIZE);
             return View(Product);
         }
 
