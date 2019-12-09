@@ -16,8 +16,9 @@ namespace OrderFoodTeam
         }
         public DbSet<Table> Table { get; set; }
         public DbSet<Order> Order { get; set; }
-       
-        public DbSet<Client> Client { get; set; }
+
+        public DbSet<Reservation> Reservation { get; set; }
+        public DbSet<Image> Image { get; set; }
 
         public DbSet<Product> Product { get; set; }
 

@@ -15,33 +15,9 @@ namespace OrderFoodTeam.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "3.0.0")
+                .HasAnnotation("ProductVersion", "3.1.0")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-            modelBuilder.Entity("OrderFoodTeam.Models.Client", b =>
-                {
-                    b.Property<int>("id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("Address")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("PhoneNumber")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Surname")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("id");
-
-                    b.ToTable("Client");
-                });
 
             modelBuilder.Entity("OrderFoodTeam.Models.Image", b =>
                 {
@@ -65,9 +41,6 @@ namespace OrderFoodTeam.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int?>("Clientid")
-                        .HasColumnType("int");
-
                     b.Property<int>("Price")
                         .HasColumnType("int");
 
@@ -75,8 +48,6 @@ namespace OrderFoodTeam.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("id");
-
-                    b.HasIndex("Clientid");
 
                     b.HasIndex("Tableid");
 
@@ -118,6 +89,26 @@ namespace OrderFoodTeam.Migrations
                     b.ToTable("Product");
                 });
 
+            modelBuilder.Entity("OrderFoodTeam.Models.Reservation", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime>("ReservationDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int?>("Tableid")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("Tableid");
+
+                    b.ToTable("Reservation");
+                });
+
             modelBuilder.Entity("OrderFoodTeam.Models.Table", b =>
                 {
                     b.Property<int>("id")
@@ -138,10 +129,6 @@ namespace OrderFoodTeam.Migrations
 
             modelBuilder.Entity("OrderFoodTeam.Models.Order", b =>
                 {
-                    b.HasOne("OrderFoodTeam.Models.Client", "Client")
-                        .WithMany("Order")
-                        .HasForeignKey("Clientid");
-
                     b.HasOne("OrderFoodTeam.Models.Table", "Table")
                         .WithMany("Order")
                         .HasForeignKey("Tableid");
@@ -152,6 +139,13 @@ namespace OrderFoodTeam.Migrations
                     b.HasOne("OrderFoodTeam.Models.Image", "Image")
                         .WithMany()
                         .HasForeignKey("Imageid");
+                });
+
+            modelBuilder.Entity("OrderFoodTeam.Models.Reservation", b =>
+                {
+                    b.HasOne("OrderFoodTeam.Models.Table", "Table")
+                        .WithMany()
+                        .HasForeignKey("Tableid");
                 });
 #pragma warning restore 612, 618
         }

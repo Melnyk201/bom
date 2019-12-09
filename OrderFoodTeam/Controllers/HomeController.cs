@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNet.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
@@ -14,12 +15,22 @@ namespace OrderFoodTeam.Controllers
     {
 
         private readonly AppDbContext _context;
+        //public string IdUser;
 
         public HomeController(AppDbContext context)
         {
             _context = context;
         }
+        /*public HomeController(string id)
+        {
+            IdUser = id;
+        }*/
 
+        /*public string GetId()
+        {
+            IdUser = User.Identity.GetUserId();
+            return IdUser;
+        }*/
         public ActionResult Index()
         {
             

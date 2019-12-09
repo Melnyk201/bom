@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNet.Identity;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -13,7 +14,7 @@ namespace OrderFoodTeam.Controllers
 {
     public class ProductController : Controller
     {
-        private const int PAGE_SIZE = 2;
+        private const int PAGE_SIZE = 6;
         private readonly AppDbContext _context;
 
         public ProductController(AppDbContext context)
@@ -23,13 +24,27 @@ namespace OrderFoodTeam.Controllers
 
         // GET: Product
         //[Authorize(Roles = "admin")]
-        public ActionResult Menu(int page = 1)
+        public ActionResult Menu(int page = 1, int productIdentity = 0)
         {
+            
+
+            var Product = new List<Product>();
+            ProductEnum valueDish = ProductEnum.Dish;
+            ProductEnum valueDrink = ProductEnum.Drink;
             ViewBag.CurrentPage = page;
-            // var count = dbConnection.Query<int>($"SELECT COUNT(id) FROM address {where}", new { search }).First();
+            ViewBag.ProductIdentity = productIdentity;
             var count = _context.Product.Select(i => i.id).Count();
             ViewBag.PageCount = (int)Math.Ceiling((double)count / PAGE_SIZE);
-            return View(_context.Product.Include(i => i.Image).OrderBy(p => p.id).Skip((page - 1) * PAGE_SIZE).Take(PAGE_SIZE).ToList());
+            /*if (productIdentity == 0)
+                Product.Where(p => p.ProductEnum == valueDish);
+            else if (productIdentity == 1)
+                    Product.Where(p => p.ProductEnum == valueDrink);*/
+
+            if (productIdentity == 0)
+                Product = _context.Product.Include(i => i.Image).Where(p => p.ProductEnum == valueDish).OrderBy(p => p.id).Skip((page - 1) * PAGE_SIZE).Take(PAGE_SIZE).ToList();
+            else if (productIdentity == 1)  Product = _context.Product.Include(i => i.Image).Where(p => p.ProductEnum == valueDrink).OrderBy(p => p.id).Skip((page - 1) * PAGE_SIZE).Take(PAGE_SIZE).ToList();
+            else Product = _context.Product.Include(i => i.Image).OrderBy(p => p.id).Skip((page - 1) * PAGE_SIZE).Take(PAGE_SIZE).ToList();
+            return View(Product);
         }
 
         // GET: Product/Details/5

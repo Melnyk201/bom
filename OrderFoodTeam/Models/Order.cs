@@ -1,9 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
+using System.Web.Providers.Entities;
+using Microsoft.AspNet.Identity;
+using Microsoft.AspNetCore.Identity;
+using OrderFoodTeam.Controllers;
 
 namespace OrderFoodTeam.Models
 {
@@ -13,8 +12,8 @@ namespace OrderFoodTeam.Models
         public int id { get; set;}
         public int Price { get; set; }
         public Table Table { get; set; }
-        public Client Client { get; set; }
-              
+       
+        //var Client = GetId();           
         
      
 
