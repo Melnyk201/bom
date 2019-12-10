@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProektBOOM\\newRepo\\OrderFoodTeam\\OrderFoodTeam.csproj": {}
+    "C:\\Users\\Olha Melnyk\\Desktop\\Нова папка (2)\\bom\\OrderFoodTeam\\OrderFoodTeam.csproj": {}
   },
   "projects": {
-    "D:\\ProektBOOM\\newRepo\\OrderFoodTeam\\OrderFoodTeam.csproj": {
+    "C:\\Users\\Olha Melnyk\\Desktop\\Нова папка (2)\\bom\\OrderFoodTeam\\OrderFoodTeam.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProektBOOM\\newRepo\\OrderFoodTeam\\OrderFoodTeam.csproj",
+        "projectUniqueName": "C:\\Users\\Olha Melnyk\\Desktop\\Нова папка (2)\\bom\\OrderFoodTeam\\OrderFoodTeam.csproj",
         "projectName": "OrderFoodTeam",
-        "projectPath": "D:\\ProektBOOM\\newRepo\\OrderFoodTeam\\OrderFoodTeam.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\ProektBOOM\\newRepo\\OrderFoodTeam\\obj\\",
+        "projectPath": "C:\\Users\\Olha Melnyk\\Desktop\\Нова папка (2)\\bom\\OrderFoodTeam\\OrderFoodTeam.csproj",
+        "packagesPath": "C:\\Users\\Olha Melnyk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Olha Melnyk\\Desktop\\Нова папка (2)\\bom\\OrderFoodTeam\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Olha Melnyk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
