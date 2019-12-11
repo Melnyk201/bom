@@ -5,6 +5,19 @@
  * Author URL: https://probootstrap.com
  * License: Released for free under the Creative Commons Attribution 3.0 license (probootstrap.com/license)
  */
+hr {
+    border-top: 1px solid #FFA33E;
+    
+}
+.category_product
+{
+    text-align:center;
+    margin-bottom:40px;
+    margin-top:30px;
+}
+.menu {
+    background: white;
+}
 .footer_text {
     text-align: center;
     color: black;
@@ -133,7 +146,33 @@ footer
     -webkit-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.08);
     -moz-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.08);
     box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.08);
+    padding:20px;
     
+}
+.itemMenu h6 {
+        color: #FFA33E;
+        font-weight:600;
+        
+}
+.itemMenu h6 span {
+        
+        font-weight: 200;
+}
+
+.itemMenu h5 
+{
+    text-align:center;
+    font-weight:600;
+    font-size:19px;
+
+}
+.itemMenu .description {
+    text-align: center;
+    font-size: 16px;
+}
+.itemMenu p
+{
+    margin:0;
 }
 .pagination
 {

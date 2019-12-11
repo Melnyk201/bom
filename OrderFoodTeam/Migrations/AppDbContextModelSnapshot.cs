@@ -96,8 +96,14 @@ namespace OrderFoodTeam.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<DateTime>("ReservationDate")
-                        .HasColumnType("datetime2");
+                    b.Property<string>("FullName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ReservationDate")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ReservationTime")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int?>("Tableid")
                         .HasColumnType("int");
