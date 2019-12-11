@@ -99,18 +99,16 @@ namespace OrderFoodTeam.Migrations
                     b.Property<string>("FullName")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
                     b.Property<string>("ReservationDate")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ReservationTime")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("Tableid")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
-
-                    b.HasIndex("Tableid");
 
                     b.ToTable("Reservation");
                 });
@@ -145,13 +143,6 @@ namespace OrderFoodTeam.Migrations
                     b.HasOne("OrderFoodTeam.Models.Image", "Image")
                         .WithMany()
                         .HasForeignKey("Imageid");
-                });
-
-            modelBuilder.Entity("OrderFoodTeam.Models.Reservation", b =>
-                {
-                    b.HasOne("OrderFoodTeam.Models.Table", "Table")
-                        .WithMany()
-                        .HasForeignKey("Tableid");
                 });
 #pragma warning restore 612, 618
         }

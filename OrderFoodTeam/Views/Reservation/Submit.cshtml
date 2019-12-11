@@ -1,0 +1,15 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject UserManager<IdentityUser> UserManager
+@{
+    ViewData["Title"] = "Submit";
+}
+@if (User.IsInRole("admin"))
+{
+    <div class="col-md-3">
+        <a asp-action="Edit" asp-route-id="@item.id">Edit</a> |
+        <!--<a asp-action="Details" asp-route-id="@item.id">Details</a>-->
+        <a asp-action="Delete" asp-route-id="@item.id">Delete</a>
+    </div>
+}
+<h2>Submit</h2>
+

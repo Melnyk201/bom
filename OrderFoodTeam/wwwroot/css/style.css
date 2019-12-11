@@ -5,6 +5,32 @@
  * Author URL: https://probootstrap.com
  * License: Released for free under the Creative Commons Attribution 3.0 license (probootstrap.com/license)
  */
+.circles_one_row {
+    display: inline block;
+}
+#circle {
+    width: 60px;
+    height: 60px;
+    background: #7fee1d;
+    top: 50%;
+    left: 15%;
+    top: 50%;
+    left: 15%;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+}
+
+
+#rectangle {
+    position: relative; /* or absolute */
+    top: 50%;
+    left: 15%;
+    width: 700px;
+    height:400px;
+    background: #f0f0f0;
+    margin-top: 5%;
+}
 hr {
     border-top: 1px solid #FFA33E;
     
@@ -54,19 +80,7 @@ footer
 {
     text-align:center;
 }
-.circle {
-    width: 100px;
-    height: 100px;
-    background: white;
-    -moz-border-radius: 50px;
-    -webkit-border-radius: 50px;
-    border-radius: 50px;
-}
-.square {
-    width: 100px;
-    height: 100px;
-    background: #cc0000;
-}
+
 .row-flex, .row-flex > div[class*='col-'] {
     display: -webkit-box;
     display: -moz-box;
