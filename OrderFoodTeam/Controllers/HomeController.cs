@@ -28,6 +28,12 @@ namespace OrderFoodTeam.Controllers
                 );
         }
 
+        public ActionResult Location()
+        {
+
+            return View( );
+        }
+
         public IActionResult Menu()
         {
             return View();

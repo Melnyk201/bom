@@ -344,3 +344,4 @@ D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.csproj
 D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.dll
 D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.pdb
 D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Reservation\Reservation.cshtml.g.cs
+D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Home\Location.cshtml.g.cs
