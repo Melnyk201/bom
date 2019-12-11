@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Olha Melnyk\\Desktop\\OrderFoodTeam\\OrderFoodTeam\\OrderFoodTeam.csproj": {}
+    "C:\\Users\\Olha Melnyk\\Desktop\\NewRepository\\OrderFoodTeam\\OrderFoodTeam.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Olha Melnyk\\Desktop\\OrderFoodTeam\\OrderFoodTeam\\OrderFoodTeam.csproj": {
+    "C:\\Users\\Olha Melnyk\\Desktop\\NewRepository\\OrderFoodTeam\\OrderFoodTeam.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Olha Melnyk\\Desktop\\OrderFoodTeam\\OrderFoodTeam\\OrderFoodTeam.csproj",
+        "projectUniqueName": "C:\\Users\\Olha Melnyk\\Desktop\\NewRepository\\OrderFoodTeam\\OrderFoodTeam.csproj",
         "projectName": "OrderFoodTeam",
-        "projectPath": "C:\\Users\\Olha Melnyk\\Desktop\\OrderFoodTeam\\OrderFoodTeam\\OrderFoodTeam.csproj",
+        "projectPath": "C:\\Users\\Olha Melnyk\\Desktop\\NewRepository\\OrderFoodTeam\\OrderFoodTeam.csproj",
         "packagesPath": "C:\\Users\\Olha Melnyk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Olha Melnyk\\Desktop\\OrderFoodTeam\\OrderFoodTeam\\obj\\",
+        "outputPath": "C:\\Users\\Olha Melnyk\\Desktop\\NewRepository\\OrderFoodTeam\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Olha Melnyk\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -38,6 +38,10 @@
       "frameworks": {
         "netcoreapp3.0": {
           "dependencies": {
+            "Entityframework": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
             "Microsoft.AspNet.Identity.Core": {
               "target": "Package",
               "version": "[2.2.3, )"
@@ -50,6 +54,10 @@
               "target": "Package",
               "version": "[3.0.0, )"
             },
+            "Microsoft.AspNetCore.Http.Extensions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.0.0, )"
@@ -57,6 +65,10 @@
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
               "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -66,13 +78,13 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.0.0, )"
+              "version": "[3.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.0, )"
+              "version": "[3.0.0, )"
             },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",

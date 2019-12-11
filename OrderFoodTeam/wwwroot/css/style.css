@@ -5,6 +5,70 @@
  * Author URL: https://probootstrap.com
  * License: Released for free under the Creative Commons Attribution 3.0 license (probootstrap.com/license)
  */
+hr {
+    border-top: 1px solid #FFA33E;
+    
+}
+
+
+.category_product
+{
+    text-align:center;
+    margin-bottom:40px;
+    margin-top:30px;
+}
+.menu {
+    background: white;
+}
+.footer_text {
+    text-align: center;
+    color: black;
+    text-transform:uppercase;
+
+}
+footer
+{
+    padding-top:40px;
+    padding-bottom:40px;
+
+}
+.list {
+    text-align: right;
+}
+.list_footer li {
+    list-style: none;
+    text-transform:uppercase;
+   
+}
+
+.left_block p, .left_block address {
+    margin: 0 !important;
+}
+.footer_address {
+    text-transform: uppercase;
+    color:black;
+}
+.menus li .text .price {
+    right: 49px!important;
+    font-weight:600;
+}
+.footer_bot
+{
+    text-align:center;
+}
+.circle {
+    width: 100px;
+    height: 100px;
+    background: white;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+.square {
+    width: 100px;
+    height: 100px;
+    background: #cc0000;
+}
 .row-flex, .row-flex > div[class*='col-'] {
     display: -webkit-box;
     display: -moz-box;
@@ -84,7 +148,33 @@
     -webkit-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.08);
     -moz-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.08);
     box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.08);
+    padding:20px;
     
+}
+.itemMenu h6 {
+        color: #FFA33E;
+        font-weight:600;
+        
+}
+.itemMenu h6 span {
+        
+        font-weight: 200;
+}
+
+.itemMenu h5 
+{
+    text-align:center;
+    font-weight:600;
+    font-size:19px;
+
+}
+.itemMenu .description {
+    text-align: center;
+    font-size: 16px;
+}
+.itemMenu p
+{
+    margin:0;
 }
 .pagination
 {
@@ -1052,7 +1142,7 @@ section[data-section="menu"] {
 }
 
 .menus li .image {
-  width: 80px;
+  width: 201px;
 }
 
 .menus li .image img {

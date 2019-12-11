@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Pinyon+Script" rel="stylesheet">
     <link href="~/css/styles-merged.css" rel="stylesheet" />
     <link href="~/css/style.css" rel="stylesheet" />
+    <link href="~/css/front.css" rel="stylesheet" />
 
 
 </head>
@@ -27,9 +28,11 @@
 
             <div id="navbar-collapse" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
+                    <li><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Main</a></li>
                     <li> <a class="nav-link text-dark" asp-area="" asp-controller="Product" asp-action="Menu">Menu</a></li>
-                    
-                    <li><a href="#">Reservation</a></li>
+                    <li> <a class="nav-link text-dark" asp-area="" asp-controller="Reservation" asp-action="Index">Reservation</a></li>
+                    <li> <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Location">Location</a></li>
+
 
                     <partial name="_LoginPartial" />
                 </ul>
@@ -86,11 +89,47 @@
         @RenderBody()
     </main>
 
-    <footer class="border-top footer text-muted">
+   
+    <!---->
+    <footer>
         <div class="container">
-            &copy; 2019 - OrderFoodTeam - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="footer_text">
+                        <p>Reservation Table in the <span style="color:#FFA33E;">best</span> restaurant</p>
+                    </div>
+                    <div class="col-md-4 left_block">
+                        <p class="footer_address">Address:</p>
+                        <address>Hebesnoi Sotni,34 Street</address>
+                        <a href="mailto:youremailaddress">Email Me</a>
+                    </div>
+                    <div class="col-md-4">
+                       
+                            <p style="text-transform:uppercase; color:black">Our Store</p>
+                            <span class="seperator">* * *</span>
+                       
+                        <p>Voluptatibus quaerat laboriosam fugit non Ut consequatur animi est molestiae enim a voluptate totam natus modi debitis dicta impedit voluptatum quod sapiente illo saepe explicabo quisquam perferendis labore et illum suscipit</p>
+                        <p><a href="#">About Us</a></p>
+                    </div>
+                    <div class="col-md-4 list">
+                        <ul class="list_footer">
+
+
+                            <li><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Main</a></li>
+                            <li><a class="nav-link text-dark" asp-area="" asp-controller="Product" asp-action="Menu">Menu</a></li>
+                            <li><a class="nav-link text-dark" asp-area="" asp-controller="Reservation" asp-action="Index">Reservation</a></li>
+                            <partial name="_LoginPartial" />
+                        </ul>
+
+                       
+                    </div>
+                </div>
+                <div class="footer_bot">Reservation Table.2019.&copy;</div> 
+                
+            </div>
         </div>
-    </footer>
+        </footer>
+   <!---->
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

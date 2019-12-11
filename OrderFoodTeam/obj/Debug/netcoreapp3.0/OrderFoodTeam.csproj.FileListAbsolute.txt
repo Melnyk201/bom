@@ -170,3 +170,764 @@ C:\Users\Olha Melnyk\Desktop\OrderFoodTeam\OrderFoodTeam\obj\Debug\netcoreapp3.0
 C:\Users\Olha Melnyk\Desktop\OrderFoodTeam\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Olha Melnyk\Desktop\OrderFoodTeam\OrderFoodTeam\bin\Debug\netcoreapp3.0\libman.json
 C:\Users\Olha Melnyk\Desktop\OrderFoodTeam\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.csprojAssemblyReference.cache
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\appsettings.Development.json
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\appsettings.json
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\libman.json
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\OrderFoodTeam.StaticWebAssets.xml
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\OrderFoodTeam.exe
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\OrderFoodTeam.deps.json
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\OrderFoodTeam.runtimeconfig.json
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\OrderFoodTeam.runtimeconfig.dev.json
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\OrderFoodTeam.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\OrderFoodTeam.pdb
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\OrderFoodTeam.Views.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\OrderFoodTeam.Views.pdb
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\EntityFramework.SqlServer.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\EntityFramework.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.AspNet.Identity.Core.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Web.Providers.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Bcl.HashCode.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.Razor.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Data.SqlClient.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Caching.Memory.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Options.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Primitives.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Identity.Client.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\dotnet-aspnet-codegenerator-design.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\NuGet.Frameworks.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Collections.Immutable.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.ComponentModel.Annotations.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Composition.AttributedModel.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Composition.Convention.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Composition.Hosting.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Composition.Runtime.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Composition.TypedParts.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Configuration.ConfigurationManager.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Diagnostics.DiagnosticSource.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Runtime.Caching.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Security.Cryptography.ProtectedData.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\sni.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\sni.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\sni.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.csprojAssemblyReference.cache
+D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\staticwebassets\OrderFoodTeam.StaticWebAssets.Manifest.cache
+D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\staticwebassets\OrderFoodTeam.StaticWebAssets.xml
+D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.MvcApplicationPartsAssemblyInfo.cs
+D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.MvcApplicationPartsAssemblyInfo.cache
+D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.RazorAssemblyInfo.cache
+D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.RazorAssemblyInfo.cs
+D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.AssemblyInfoInputs.cache
+D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.AssemblyInfo.cs
+D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.TagHelpers.input.cache
+D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.TagHelpers.output.cache
+D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.RazorCoreGenerate.cache
+D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\Account\ForgotPassword.cshtml.g.cs
+D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\Account\ResetPassword.cshtml.g.cs
+D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Home\Index.cshtml.g.cs
+D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Product\Create.cshtml.g.cs
+D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Product\Delete.cshtml.g.cs
+D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Product\Details.cshtml.g.cs
+D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Product\Edit.cshtml.g.cs
+D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Product\Index.cshtml.g.cs
+D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Product\Menu.cshtml.g.cs
+D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Reservation\Index.cshtml.g.cs
+D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Shared\Error.cshtml.g.cs
+D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\_ViewImports.cshtml.g.cs
+D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\_ViewStart.cshtml.g.cs
+D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.RazorTargetAssemblyInfo.cache
+D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.RazorTargetAssemblyInfo.cs
+D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.Views.pdb
+D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.csproj.CopyComplete
+D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.dll
+D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.pdb
+D:\ProektBOOM\newRepo\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Reservation\Reservation.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\appsettings.Development.json
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\appsettings.json
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\libman.json
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\OrderFoodTeam.StaticWebAssets.xml
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\OrderFoodTeam.exe
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\OrderFoodTeam.deps.json
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\OrderFoodTeam.runtimeconfig.json
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\OrderFoodTeam.runtimeconfig.dev.json
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\OrderFoodTeam.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\OrderFoodTeam.pdb
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\OrderFoodTeam.Views.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\OrderFoodTeam.Views.pdb
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\EntityFramework.SqlServer.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\EntityFramework.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Web.Providers.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Bcl.HashCode.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Data.SqlClient.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Options.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Identity.Client.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\NuGet.Frameworks.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Collections.Immutable.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.ComponentModel.Annotations.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Composition.AttributedModel.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Composition.Convention.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Composition.Hosting.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Composition.Runtime.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Composition.TypedParts.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Runtime.Caching.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\sni.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\sni.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.csprojAssemblyReference.cache
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\obj\Debug\netcoreapp3.0\staticwebassets\OrderFoodTeam.StaticWebAssets.Manifest.cache
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\obj\Debug\netcoreapp3.0\staticwebassets\OrderFoodTeam.StaticWebAssets.xml
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.RazorAssemblyInfo.cache
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.RazorAssemblyInfo.cs
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.AssemblyInfoInputs.cache
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.AssemblyInfo.cs
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.TagHelpers.input.cache
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.TagHelpers.output.cache
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.RazorCoreGenerate.cache
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\Account\ForgotPassword.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\Account\ResetPassword.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Product\Create.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Product\Delete.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Product\Details.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Product\Edit.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Product\Index.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Product\Menu.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Reservation\Index.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Reservation\Reservation.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.RazorTargetAssemblyInfo.cache
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.RazorTargetAssemblyInfo.cs
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.Views.pdb
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.csproj.CopyComplete
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.pdb
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Win32.Registry.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.CodeDom.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Data.SqlClient.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Security.AccessControl.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Security.Permissions.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Security.Principal.Windows.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Text.Encoding.CodePages.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netstandard2.0\Microsoft.Win32.Registry.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\Microsoft.Win32.Registry.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Text.Encoding.CodePages.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Olha Melnyk\Desktop\Нова папка (2)\bom\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.MvcApplicationPartsAssemblyInfo.cache
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\appsettings.Development.json
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\appsettings.json
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\libman.json
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\OrderFoodTeam.StaticWebAssets.xml
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\OrderFoodTeam.exe
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\OrderFoodTeam.deps.json
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\OrderFoodTeam.runtimeconfig.json
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\OrderFoodTeam.runtimeconfig.dev.json
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\OrderFoodTeam.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\OrderFoodTeam.pdb
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\OrderFoodTeam.Views.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\OrderFoodTeam.Views.pdb
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\EntityFramework.SqlServer.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\EntityFramework.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.AspNet.Identity.Core.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Web.Providers.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Bcl.HashCode.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.Razor.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Data.SqlClient.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Options.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Primitives.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Identity.Client.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\dotnet-aspnet-codegenerator-design.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Win32.Registry.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\NuGet.Frameworks.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.CodeDom.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Collections.Immutable.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.ComponentModel.Annotations.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Composition.AttributedModel.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Composition.Convention.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Composition.Hosting.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Composition.Runtime.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Composition.TypedParts.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Configuration.ConfigurationManager.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Data.SqlClient.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Diagnostics.DiagnosticSource.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Runtime.Caching.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Security.AccessControl.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Security.Cryptography.ProtectedData.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Security.Permissions.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Security.Principal.Windows.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Text.Encoding.CodePages.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netstandard2.0\Microsoft.Win32.Registry.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\Microsoft.Win32.Registry.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\sni.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\sni.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\sni.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Text.Encoding.CodePages.dll
+D:\Proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Proekt\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.csprojAssemblyReference.cache
+D:\Proekt\OrderFoodTeam\obj\Debug\netcoreapp3.0\staticwebassets\OrderFoodTeam.StaticWebAssets.Manifest.cache
+D:\Proekt\OrderFoodTeam\obj\Debug\netcoreapp3.0\staticwebassets\OrderFoodTeam.StaticWebAssets.xml
+D:\Proekt\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.MvcApplicationPartsAssemblyInfo.cs
+D:\Proekt\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.MvcApplicationPartsAssemblyInfo.cache
+D:\Proekt\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.RazorAssemblyInfo.cache
+D:\Proekt\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.RazorAssemblyInfo.cs
+D:\Proekt\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.AssemblyInfoInputs.cache
+D:\Proekt\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.AssemblyInfo.cs
+D:\Proekt\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.TagHelpers.input.cache
+D:\Proekt\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.TagHelpers.output.cache
+D:\Proekt\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.RazorCoreGenerate.cache
+D:\Proekt\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\Account\ForgotPassword.cshtml.g.cs
+D:\Proekt\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+D:\Proekt\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+D:\Proekt\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+D:\Proekt\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\Account\ResetPassword.cshtml.g.cs
+D:\Proekt\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+D:\Proekt\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+D:\Proekt\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+D:\Proekt\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+D:\Proekt\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Home\Index.cshtml.g.cs
+D:\Proekt\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\Proekt\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Product\Create.cshtml.g.cs
+D:\Proekt\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Product\Delete.cshtml.g.cs
+D:\Proekt\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Product\Details.cshtml.g.cs
+D:\Proekt\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Product\Edit.cshtml.g.cs
+D:\Proekt\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Product\Index.cshtml.g.cs
+D:\Proekt\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Product\Menu.cshtml.g.cs
+D:\Proekt\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Reservation\Index.cshtml.g.cs
+D:\Proekt\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Reservation\Reservation.cshtml.g.cs
+D:\Proekt\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Shared\Error.cshtml.g.cs
+D:\Proekt\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+D:\Proekt\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Proekt\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+D:\Proekt\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Proekt\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Proekt\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Proekt\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.RazorTargetAssemblyInfo.cache
+D:\Proekt\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.RazorTargetAssemblyInfo.cs
+D:\Proekt\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.Views.pdb
+D:\Proekt\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.csproj.CopyComplete
+D:\Proekt\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.dll
+D:\Proekt\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.pdb
+D:\Proekt\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Home\Location.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.pdb
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\appsettings.Development.json
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\appsettings.json
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\libman.json
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\OrderFoodTeam.StaticWebAssets.xml
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\OrderFoodTeam.exe
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\OrderFoodTeam.deps.json
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\OrderFoodTeam.runtimeconfig.json
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\OrderFoodTeam.runtimeconfig.dev.json
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\OrderFoodTeam.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\OrderFoodTeam.pdb
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\OrderFoodTeam.Views.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\OrderFoodTeam.Views.pdb
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\EntityFramework.SqlServer.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\EntityFramework.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Web.Providers.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Bcl.HashCode.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Data.SqlClient.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Options.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Identity.Client.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Win32.Registry.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\NuGet.Frameworks.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.CodeDom.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Collections.Immutable.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.ComponentModel.Annotations.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Composition.AttributedModel.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Composition.Convention.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Composition.Hosting.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Composition.Runtime.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Composition.TypedParts.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Data.SqlClient.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Runtime.Caching.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Security.AccessControl.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Security.Permissions.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Security.Principal.Windows.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Text.Encoding.CodePages.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netstandard2.0\Microsoft.Win32.Registry.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\Microsoft.Win32.Registry.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\sni.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\sni.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Text.Encoding.CodePages.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.csprojAssemblyReference.cache
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\obj\Debug\netcoreapp3.0\staticwebassets\OrderFoodTeam.StaticWebAssets.Manifest.cache
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\obj\Debug\netcoreapp3.0\staticwebassets\OrderFoodTeam.StaticWebAssets.xml
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.RazorAssemblyInfo.cache
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.RazorAssemblyInfo.cs
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.AssemblyInfoInputs.cache
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.AssemblyInfo.cs
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.TagHelpers.input.cache
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.TagHelpers.output.cache
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.RazorCoreGenerate.cache
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\Account\ForgotPassword.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\Account\ResetPassword.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Home\Location.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Product\Create.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Product\Delete.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Product\Details.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Product\Edit.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Product\Index.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Product\Menu.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Reservation\Index.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Reservation\Reservation.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.RazorTargetAssemblyInfo.cache
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.RazorTargetAssemblyInfo.cs
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.Views.pdb
+C:\Users\Olha Melnyk\Desktop\NewRepository\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.csproj.CopyComplete
