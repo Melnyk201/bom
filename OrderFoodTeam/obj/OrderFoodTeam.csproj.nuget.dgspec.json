@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Olha Melnyk\\Desktop\\Нова папка (2)\\bom\\OrderFoodTeam\\OrderFoodTeam.csproj": {}
+    "C:\\Users\\Olha Melnyk\\Desktop\\Нова папка (3) – копія\\bom\\OrderFoodTeam\\OrderFoodTeam.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Olha Melnyk\\Desktop\\Нова папка (2)\\bom\\OrderFoodTeam\\OrderFoodTeam.csproj": {
+    "C:\\Users\\Olha Melnyk\\Desktop\\Нова папка (3) – копія\\bom\\OrderFoodTeam\\OrderFoodTeam.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Olha Melnyk\\Desktop\\Нова папка (2)\\bom\\OrderFoodTeam\\OrderFoodTeam.csproj",
+        "projectUniqueName": "C:\\Users\\Olha Melnyk\\Desktop\\Нова папка (3) – копія\\bom\\OrderFoodTeam\\OrderFoodTeam.csproj",
         "projectName": "OrderFoodTeam",
-        "projectPath": "C:\\Users\\Olha Melnyk\\Desktop\\Нова папка (2)\\bom\\OrderFoodTeam\\OrderFoodTeam.csproj",
+        "projectPath": "C:\\Users\\Olha Melnyk\\Desktop\\Нова папка (3) – копія\\bom\\OrderFoodTeam\\OrderFoodTeam.csproj",
         "packagesPath": "C:\\Users\\Olha Melnyk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Olha Melnyk\\Desktop\\Нова папка (2)\\bom\\OrderFoodTeam\\obj\\",
+        "outputPath": "C:\\Users\\Olha Melnyk\\Desktop\\Нова папка (3) – копія\\bom\\OrderFoodTeam\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Olha Melnyk\\AppData\\Roaming\\NuGet\\NuGet.Config",
