@@ -8831,11 +8831,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Olha Melnyk\\Desktop\\NewRepository\\OrderFoodTeam\\OrderFoodTeam.csproj",
+      "projectUniqueName": "D:\\4kurs\\NewRepository\\OrderFoodTeam\\OrderFoodTeam.csproj",
       "projectName": "OrderFoodTeam",
-      "projectPath": "C:\\Users\\Olha Melnyk\\Desktop\\NewRepository\\OrderFoodTeam\\OrderFoodTeam.csproj",
+      "projectPath": "D:\\4kurs\\NewRepository\\OrderFoodTeam\\OrderFoodTeam.csproj",
       "packagesPath": "C:\\Users\\Olha Melnyk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Olha Melnyk\\Desktop\\NewRepository\\OrderFoodTeam\\obj\\",
+      "outputPath": "D:\\4kurs\\NewRepository\\OrderFoodTeam\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Olha Melnyk\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
@@ -21,13 +22,13 @@ namespace OrderFoodTeam.Controllers
             _context = context;
         }
 
-        public IActionResult Submit(string people, string date, string time, string name)
+        public IActionResult Submit(string people, string date, string time, string name, int table)
         {
 
             int p; 
             Int32.TryParse(people, out p);
-
-            Reservation reserv = new Reservation { Quantity = p, ReservationDate = date, ReservationTime = time, FullName = name };
+            
+            Reservation reserv = new Reservation { Quantity = p, ReservationDate = date, ReservationTime = time, FullName = name, NumberTable = table };
             _context.Add(reserv);
             _context.SaveChangesAsync();
 
