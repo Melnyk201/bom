@@ -35,3 +35,19 @@ h2 {
     color: #FFA33E;
     text-align: center;
 }
+.group_list p {
+    margin-bottom:5px;
+     
+}
+.item_delete
+{
+    margin: 0 auto;
+    display:block;
+
+
+}
+.item_delete dt{
+    font-weight:200;
+    color:black;
+
+}

@@ -151,7 +151,7 @@ namespace OrderFoodTeam.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(Menu));
             }
             return View(product);
         }

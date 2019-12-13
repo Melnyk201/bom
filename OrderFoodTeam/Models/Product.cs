@@ -20,8 +20,9 @@ namespace OrderFoodTeam.Models
 
         public int Measurement { get; set; }
         public Image Image { get; set; } 
+        public ICollection<Order> Order { get; set; }
         
-        //public ICollection<OrderDish> OrderDish { get; set; }
+       
 
     }
     public enum ProductEnum : byte

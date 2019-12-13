@@ -2,91 +2,121 @@
 @inject SignInManager<IdentityUser> SignInManager
 @inject UserManager<IdentityUser> UserManager
 
-@if (SignInManager.IsSignedIn(User))
-{
+<div class="white_container register_container">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                @if (SignInManager.IsSignedIn(User))
+                {
+                    <div class="white_container register_container">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
 
-    <section class="probootstrap-section probootstrap-bg-white">
-        <h1>Reservation</h1>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 probootstrap-animate">
-                    <form method="post" class="probootstrap-form">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="form-group">
-                                    <label for="people">How Many People</label>
-                                    <div class="form-field">
-                                        <i class="icon icon-chevron-down"></i>
-                                        <select name="people" id="people" class="form-control">
-                                            <option value="#">1 people</option>
-                                            <option value="#">2 people</option>
-                                            <option value="#">3 people</option>
-                                            <option value="#">4+ people</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="form-group">
-                                    <label for="date">Date</label>
-                                    <div class="form-field">
-                                        <i class="icon icon-calendar"></i>
-                                        <input type="text" id="date" class="form-control">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="form-group">
-                                    <label for="time">Time</label>
-                                    <div class="form-field">
-                                        <i class="icon icon-clock"></i>
-                                        <input type="text" id="time" class="form-control">
-                                    </div>
+                                    <section class="probootstrap-section probootstrap-bg-white">
+                                        <h2>Reservation</h2>
+                                        <hr>
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-md-12 probootstrap-animate">
+                                                    <form asp-action="Submit" class="probootstrap-form">
+                                                        <div class="row">
+                                                            <div class="col-md-4">
+                                                                <div class="form-group">
+                                                                    <label for="people">How Many People</label>
+                                                                    <div class="form-field">
+                                                                        <i class="icon icon-chevron-down"></i>
+                                                                        <select name="people" id="people" class="form-control">
+                                                                            <option value="1">1 people</option>
+                                                                            <option value="2">2 people</option>
+                                                                            <option value="3">3 people</option>
+                                                                            <option value="4">4 people</option>
+                                                                            <option value="5">5+ people</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                <div class="form-group">
+                                                                    <label for="date">Date</label>
+                                                                    <div class="form-field">
+                                                                        <i class="icon icon-calendar"></i>
+                                                                        <input name="date" type="text" id="date" class="form-control">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                <div class="form-group">
+                                                                    <label for="time">Time</label>
+                                                                    <div class="form-field">
+                                                                        <i class="icon icon-clock"></i>
+                                                                        <input name="time" type="text" id="time" class="form-control">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="row">
+                                                            <div class="col-md-4">
+                                                                <div class="form-group">
+                                                                    <label for="name">Name</label>
+                                                                    <div class="form-field">
+                                                                        <i class="icon icon-user2"></i>
+                                                                        <input name="name" type="text" id="name" class="form-control" placeholder="Your full name">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+
+
+
+
+
+
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-md-4 col-md-offset-4">
+                                                                <li><button class="btn btn-lg btn-primary btn-block" type="submit">Submit</button></li>
+                                                            </div>
+                                                        </div>
+                                                        <div id="rectangle">
+                                                            <div class="circles_one_row">
+                                                                <div id="circle"></div>
+                                                                <div id="circle"></div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+
+
+
+
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </section>
+
                                 </div>
                             </div>
                         </div>
-
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="form-group">
-                                    <label for="name">Name</label>
-                                    <div class="form-field">
-                                        <i class="icon icon-user2"></i>
-                                        <input type="text" id="name" class="form-control" placeholder="Your full name">
-                                    </div>
-                                </div>
-                            </div>
-
-
+                    </div>
+                }
+                else
+                {
+                    <div class="row">
+                        <h1 class="primary-heading">For reservation you need: </h1>
+                        <div class="col-md-4 col-md-offset-4">
+                            <a class="btn btn-lg btn-primary btn-block" asp-area="Identity" asp-page="/Account/Login">Login</a>
                         </div>
-                        <div class="row">
-                            <div class="col-md-4 col-md-offset-4">
-                                <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-lg btn-primary btn-block">
-                            </div>
+                        <div class="col-md-4 col-md-offset-4">
+                            <a class="btn btn-lg btn-primary btn-block" asp-area="Identity" asp-page="/Account/Register">Registration</a>
                         </div>
-
-                    </form>
-                </div>
+                    </div>
+                }
             </div>
         </div>
-    </section>
-
-    <section class="probootstrap-section probootstrap-bg-white">
-      
-        <div class="square"><div class="circle"></div></div>                
-
-    </section>
-}
-else
-{
-    <div class="row">
-        <h1 class="primary-heading">For reservation you need: </h1>
-        <div class="col-md-4 col-md-offset-4">
-            <a class="btn btn-lg btn-primary btn-block" asp-area="Identity" asp-page="/Account/Login">Login</a>
-        </div>
-        <div class="col-md-4 col-md-offset-4">
-            <a class="btn btn-lg btn-primary btn-block" asp-area="Identity" asp-page="/Account/Register">Registration</a>
-        </div>
     </div>
-}
+</div>
 

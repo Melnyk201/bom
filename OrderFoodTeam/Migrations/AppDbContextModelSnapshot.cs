@@ -36,7 +36,7 @@ namespace OrderFoodTeam.Migrations
 
             modelBuilder.Entity("OrderFoodTeam.Models.Order", b =>
                 {
-                    b.Property<int>("id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
@@ -44,12 +44,12 @@ namespace OrderFoodTeam.Migrations
                     b.Property<int>("Price")
                         .HasColumnType("int");
 
-                    b.Property<int?>("Tableid")
+                    b.Property<int?>("Productid")
                         .HasColumnType("int");
 
-                    b.HasKey("id");
+                    b.HasKey("Id");
 
-                    b.HasIndex("Tableid");
+                    b.HasIndex("Productid");
 
                     b.ToTable("Order");
                 });
@@ -99,6 +99,9 @@ namespace OrderFoodTeam.Migrations
                     b.Property<string>("FullName")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
                     b.Property<string>("ReservationDate")
                         .HasColumnType("nvarchar(max)");
 
@@ -135,9 +138,9 @@ namespace OrderFoodTeam.Migrations
 
             modelBuilder.Entity("OrderFoodTeam.Models.Order", b =>
                 {
-                    b.HasOne("OrderFoodTeam.Models.Table", "Table")
+                    b.HasOne("OrderFoodTeam.Models.Product", "Product")
                         .WithMany("Order")
-                        .HasForeignKey("Tableid");
+                        .HasForeignKey("Productid");
                 });
 
             modelBuilder.Entity("OrderFoodTeam.Models.Product", b =>
