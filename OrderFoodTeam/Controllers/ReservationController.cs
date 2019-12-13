@@ -21,6 +21,7 @@ namespace OrderFoodTeam.Controllers
             _context = context;
         }
 
+        [HttpPost]
         public IActionResult Submit(string people, string date, string time, string name)
         {
 
@@ -31,6 +32,7 @@ namespace OrderFoodTeam.Controllers
             _context.Add(reserv);
             _context.SaveChangesAsync();
 
+           
             return View(reserv);
 
 
