@@ -4,7 +4,7 @@
 @{
     ViewData["Title"] = "Log in";
 }
- <div class="white_container register_container">
+ <div class="white_container register_container nav_top_menu" id="login">
         <div class=" container">
             <div class="row">
                 <div class="col-md-12">
@@ -40,13 +40,13 @@
                                         </div>
                                         <div class="form-group group_list">
                                             <p>
-                                                <a id="forgot-password" asp-page="./ForgotPassword">Forgot your password?</a>
+                                                <a id="forgot-password" asp-page="./ForgotPassword" asp-fragment="forgotpass">Forgot your password?</a>
                                             </p>
                                             <p>
-                                                <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">Register as a new user</a>
+                                                <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl" asp-fragment="register">Register as a new user</a>
                                             </p>
                                             <p>
-                                                <button type="submit" asp-page-handler="SendVerificationEmail" class="btn-link" style="padding:0px;margin:0px;border:0px">Resend email confirmation</button>
+                                                <button type="submit" asp-page-handler="SendVerificationEmail" class="btn-link" style="padding:0px;margin:0px;border:0px" asp-fragment="login">Resend email confirmation</button>
                                             </p>
                                         </div>
                                     </form>

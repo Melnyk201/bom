@@ -1,7 +1,16 @@
-﻿.btn_create_product a
-{
-    padding:5px 100px;
-    
+﻿.nav_top_menu {
+    padding-top:60px;
+   margin-top:-60px;
+}
+.nav_top_product {
+    padding-top: 130px;
+    margin-top: -130px;
+}
+.but_for_reserv {
+    margin-bottom: 40px;
+}
+.btn_create_product a {
+    padding: 5px 100px;
 }
 .btn_create_product {
     text-align:center;

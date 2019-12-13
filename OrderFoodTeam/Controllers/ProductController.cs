@@ -24,7 +24,7 @@ namespace OrderFoodTeam.Controllers
 
         // GET: Product
         //[Authorize(Roles = "admin")]
-        public ActionResult Menu(int page = 1, int productIdentity = 0)
+        public ActionResult Menu(int page = 1, int productIdentity = 2)
         {
             
             var Product = new List<Product>();
@@ -51,7 +51,7 @@ namespace OrderFoodTeam.Controllers
                    .Take(PAGE_SIZE).ToList();
                 count = _context.Product.Where(p => p.ProductEnum == valueDrink).Select(i => i.id).Count();
             }
-            else
+            else 
             {
                 Product = _context.Product.Include(i => i.Image).
                       OrderBy(p => p.id).Skip((page - 1) * PAGE_SIZE).
