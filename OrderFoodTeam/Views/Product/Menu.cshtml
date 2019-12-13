@@ -22,7 +22,7 @@
                 {
                     <p class="btn_create_product">
                         <!---->
-                        <a asp-action="Create"  class="btn btn-primary btn_create_product">Create New</a>
+                        <a asp-action="Create"  class="btn btn-primary btn_create_product" asp-fragment="create">Create New</a>
                     </p>
                 }
             <div class="category_product">
@@ -33,13 +33,12 @@
             </div>
             <div class="row nav_top_product" id="MenuItem">
                 <div class="block_Product">
-
                     @foreach (var item in Model)
                     {
-
+                        
                         <div class="col-md-4">
 
-                            <div class="itemMenu" style="margin-bottom:30px">
+                            <div class="itemMenu">
 
 
 
@@ -60,9 +59,9 @@
                                 @if (User.IsInRole("admin"))
                                 {
                                     <div class="but_edit_delete">
-                                        <a asp-action="Edit" asp-route-id="@item.id" class="btn btn-primary">Edit</a>
+                                        <a asp-action="Edit" asp-route-id="@item.id" class="btn btn-primary" asp-fragment="edit">Edit</a>
                                         <!--<a asp-action="Details" asp-route-id="@item.id">Details</a>-->
-                                        <a asp-action="Delete" asp-route-id="@item.id" class="btn btn-primary">Delete</a>
+                                        <a asp-action="Delete" asp-route-id="@item.id" class="btn btn-primary" asp-fragment="delete">Delete</a>
                                     </div>
                                 }
 

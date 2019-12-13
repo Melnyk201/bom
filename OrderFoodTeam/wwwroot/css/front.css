@@ -6,6 +6,25 @@
     padding-top: 130px;
     margin-top: -130px;
 }
+.item_delete
+{
+    margin:0 auto;
+    width: 50%;
+    display:block;
+}
+.item_delete label
+{
+    color:black;
+
+}
+.block_Product {
+        display: flex;
+        flex-wrap: wrap;
+}
+.itemMenu {
+    height:93%;   
+    margin-bottom:40px;
+}
 .but_for_reserv {
     margin-bottom: 40px;
 }
@@ -19,7 +38,7 @@
 .but_edit_delete
 {
     text-align:center;
-    bottom:0;
+   
 }
 h2 {
     text-align: center;
