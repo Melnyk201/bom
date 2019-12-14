@@ -1,0 +1,48 @@
+﻿@model IEnumerable<OrderFoodTeam.Models.Reservation>
+@{
+    ViewBag.Title = "AllReservs";
+}
+
+
+
+<p>AllReservs:</p>
+<table class="table">
+    <tr>
+        <td>Delete</td>
+        <td>Name</td>
+        <td> Quantity</td>
+        <td>ReservationDate</td>
+        <td>ReservationTime</td>
+
+
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                <!--<form asp-action="Delete" class="button_delete">
+        <a asp-action="Delete" asp-route-id="@item.Id" asp-controller="Reservation" >Delete</a>-->
+
+
+                <form asp-action="Delete" class="button_delete">
+                    <input name="id" type="hidden" asp-for="@item.Id" />
+                    <input type="submit" value="Delete" class="btn btn-primary" />
+                    
+                </form>
+
+
+
+            </td>
+            <td> @item.FullName</td>
+            <td>@item.Quantity</td>
+            <td>@item.ReservationDate </td>
+            <td>@item.ReservationTime</td>
+
+
+        </tr>
+    }
+</table>
+
+
+

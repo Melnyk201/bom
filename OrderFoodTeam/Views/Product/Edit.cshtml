@@ -1,56 +1,72 @@
 ﻿@model OrderFoodTeam.Models.Product
 
-@{
-    ViewData["Title"] = "Edit";
-}
+<div class="white_container register_container nav_top_menu" id="edit">
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
 
-<h2>Edit</h2>
 
-<h4>Product</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="id" />
-            <div class="form-group">
-                <label asp-for="Name" class="control-label"></label>
-                <input asp-for="Name" class="form-control" />
-                <span asp-validation-for="Name" class="text-danger"></span>
+            <div class="registerMylass">
+                <h2>Edit</h2>
+                </div>
+
+                <hr />
+
+                <div class="row item_delete">
+
+                    <div class="">
+                        <form asp-action="Edit">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <input type="hidden" asp-for="id" />
+                            <div class="form-group">
+                                <label asp-for="Name" class="control-label"></label>
+                                <input asp-for="Name" class="form-control" />
+                                <span asp-validation-for="Name" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Price" class="control-label"></label>
+                                <input asp-for="Price" class="form-control" />
+                                <span asp-validation-for="Price" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Description" class="control-label"></label>
+                                <input asp-for="Description" class="form-control" />
+                                <span asp-validation-for="Description" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="ProductEnum" class="control-label"></label>
+                                <select asp-for="ProductEnum" class="form-control">
+                                    <option value="0">Food</option>
+                                    <option value="1">Drink</option>
+                                </select>
+                                <span asp-validation-for="ProductEnum" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="MeasurementEnum" class="control-label"></label>
+                                <select asp-for="MeasurementEnum" class="form-control">
+                                    <option value="0">Gramm</option>
+                                    <option value="1">Litr</option>
+                                </select>
+                                <span asp-validation-for="MeasurementEnum" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Measurement" class="control-label"></label>
+                                <input asp-for="Measurement" class="form-control" />
+                                <span asp-validation-for="Measurement" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" value="Save" class="btn btn-primary" asp-fragment="menu" />
+                            </div>
+                        </form>
+                        <div style="text-align:center">
+                            <a asp-action="Menu" asp-fragment="menu" class="btn btn-primary" >Back to List</a>
+                        </div>
+                    </div>
+                </div>
+
+               
+
             </div>
-            <div class="form-group">
-                <label asp-for="Price" class="control-label"></label>
-                <input asp-for="Price" class="form-control" />
-                <span asp-validation-for="Price" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Description" class="control-label"></label>
-                <input asp-for="Description" class="form-control" />
-                <span asp-validation-for="Description" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ProductEnum" class="control-label"></label>
-                <select asp-for="ProductEnum" class="form-control"></select>
-                <span asp-validation-for="ProductEnum" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="MeasurementEnum" class="control-label"></label>
-                <select asp-for="MeasurementEnum" class="form-control"></select>
-                <span asp-validation-for="MeasurementEnum" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Measurement" class="control-label"></label>
-                <input asp-for="Measurement" class="form-control" />
-                <span asp-validation-for="Measurement" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-default" />
-            </div>
-        </form>
-    </div>
+        </div>
 </div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
 </div>
-

@@ -1,0 +1,31 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject UserManager<IdentityUser> UserManager
+@model OrderFoodTeam.Models.Reservation
+@{
+    ViewData["Title"] = "Submit";
+}
+<h2>Submit</h2>
+@if (User.IsInRole("admin"))
+{
+    <a asp-action="Watch" class="btn btn-primary">Watch</a>
+    
+
+}
+else
+{
+    <div class="col-md-12">
+        <h2>Your reservation is successful!</h2>
+
+        <hr />
+        <hr />
+        <hr />
+        <hr />
+        <hr />
+        <hr />
+        <hr />
+    </div>
+
+}
+
+
+
