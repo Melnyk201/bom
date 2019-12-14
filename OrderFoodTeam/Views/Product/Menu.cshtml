@@ -55,6 +55,7 @@
                                 <div class="price"><h6>Price :<span>@Html.DisplayFor(modelItem => item.Price)</span></h6></div>
                                 <a class="btn btn-primary" asp-controller="ShopCart" asp-action="addToCart" asp-route-id="@item.id">Add to basket</a>
 
+                                <div class="price"><h6>Price :<span>@Html.DisplayFor(modelItem => item.Price)</span></h6></div>
 
                                 @if (User.IsInRole("admin"))
                                 {
