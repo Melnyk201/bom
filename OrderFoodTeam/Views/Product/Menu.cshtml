@@ -7,14 +7,14 @@
 }
 @{
 
-    var currentLink = $"/product/menu?page={ViewBag.CurrentPage}";
+    var currentLink = $"/Product/Menu?page={ViewBag.CurrentPage}";
     
 
 
 }
-<div class="menu" id="menu">
+<div class="menu nav_top_menu" id="menu">
     <div class="container">
-        <div class="row>
+        <div class="row">
             <div class="col-md-12">
                 <h2>@ViewBag.Title</h2>
                 <hr>
@@ -22,22 +22,23 @@
                 {
                     <p class="btn_create_product">
                         <!---->
-                        <a asp-action="Create"  class="btn btn-primary btn_create_product">Create New</a>
+                        <a asp-action="Create"  class="btn btn-primary btn_create_product" asp-fragment="create">Create New</a>
                     </p>
                 }
             <div class="category_product">
-                <a href="/product/menu?page=@(ViewBag.CurrentPage)&productIdentity=0" class="btn btn-primary">Food</a>
-                <a href="/product/menu?page=@(ViewBag.CurrentPage)&productIdentity=1" class="btn btn-primary">Drink</a>
-            </div>
-            <div class="row ">
-                <div class="block_Product">
+                <a href="/product/menu?page=@(ViewBag.CurrentPage)&productIdentity=2#MenuItem" class="btn btn-primary">All</a>
+                <a href="/product/menu?page=@(ViewBag.CurrentPage)&productIdentity=0#MenuItem" class="btn btn-primary">Food</a>
+                <a href="/product/menu?page=@(ViewBag.CurrentPage)&productIdentity=1#MenuItem" class="btn btn-primary">Drink</a>
 
+            </div>
+            <div class="row nav_top_product" id="MenuItem">
+                <div class="block_Product">
                     @foreach (var item in Model)
                     {
-
+                        
                         <div class="col-md-4">
 
-                            <div class="itemMenu" style="margin-bottom:30px">
+                            <div class="itemMenu">
 
 
 
@@ -58,9 +59,9 @@
                                 @if (User.IsInRole("admin"))
                                 {
                                     <div class="but_edit_delete">
-                                        <a asp-action="Edit" asp-route-id="@item.id" class="btn btn-primary">Edit</a>
+                                        <a asp-action="Edit" asp-route-id="@item.id" class="btn btn-primary" asp-fragment="edit">Edit</a>
                                         <!--<a asp-action="Details" asp-route-id="@item.id">Details</a>-->
-                                        <a asp-action="Delete" asp-route-id="@item.id" class="btn btn-primary">Delete</a>
+                                        <a asp-action="Delete" asp-route-id="@item.id" class="btn btn-primary" asp-fragment="delete">Delete</a>
                                     </div>
                                 }
 
@@ -81,7 +82,7 @@
                             }
                             else
                             {
-                                <li class="page-item"><a class="page-link" href="/product/menu?page=@(ViewBag.CurrentPage - 1)&productIdentity=@(ViewBag.ProductIdentity)">Попередній</a></li>
+                                <li class="page-item"><a class="page-link" href="/product/menu?page=@(ViewBag.CurrentPage - 1)&productIdentity=@(ViewBag.ProductIdentity)#MenuItem">Попередній</a></li>
                             }
                             @for (int i = 1; i <= ViewBag.PageCount; i++)
                             {
@@ -91,7 +92,7 @@
                                 }
                                 else
                                 {
-                                    <li class="page-item"><a class="page-link" href="/product/menu?page=@i&productIdentity=@(ViewBag.ProductIdentity)">@i</a></li>
+                                    <li class="page-item"><a class="page-link" href="/product/menu?page=@i&productIdentity=@(ViewBag.ProductIdentity)#MenuItem">@i</a></li>
                                 }
                             }
                             @if (ViewBag.CurrentPage == ViewBag.PageCount)
@@ -100,7 +101,7 @@
                             }
                             else
                             {
-                                <li class="page-item"><a class="page-link" href="/product/menu?page=@(ViewBag.CurrentPage + 1)&productIdentity=@(ViewBag.ProductIdentity)">Наступний</a></li>
+                                <li class="page-item"><a class="page-link" href="/product/menu?page=@(ViewBag.CurrentPage + 1)&productIdentity=@(ViewBag.ProductIdentity)#MenuItem">Наступний</a></li>
                             }
                         </ul>
                     </td>

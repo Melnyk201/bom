@@ -10,7 +10,7 @@ using OrderFoodTeam;
 namespace OrderFoodTeam.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20191213143958_updateord")]
+    [Migration("20191213172931_updateord")]
     partial class updateord
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -100,6 +100,9 @@ namespace OrderFoodTeam.Migrations
 
                     b.Property<string>("FullName")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("NumberTable")
+                        .HasColumnType("int");
 
                     b.Property<int>("Quantity")
                         .HasColumnType("int");

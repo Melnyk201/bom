@@ -1,6 +1,6 @@
 ﻿@model OrderFoodTeam.Models.Product
 
-<div class="white_container register_container">
+<div class="white_container register_container nav_top_menu" id="edit">
 <div class="container">
     <div class="row">
         <div class="col-md-12">
@@ -14,7 +14,7 @@
 
                 <div class="row item_delete">
 
-                    <div class="col-md-4">
+                    <div class="">
                         <form asp-action="Edit">
                             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                             <input type="hidden" asp-for="id" />
@@ -55,15 +55,16 @@
                                 <span asp-validation-for="Measurement" class="text-danger"></span>
                             </div>
                             <div class="form-group">
-                                <input type="submit" value="Save" class="btn btn-default" />
+                                <input type="submit" value="Save" class="btn btn-primary" asp-fragment="menu" />
                             </div>
                         </form>
+                        <div style="text-align:center">
+                            <a asp-action="Menu" asp-fragment="menu" class="btn btn-primary" >Back to List</a>
+                        </div>
                     </div>
                 </div>
 
-                <div>
-                    <a asp-action="Index">Back to List</a>
-                </div>
+               
 
             </div>
         </div>

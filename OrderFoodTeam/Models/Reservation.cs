@@ -13,9 +13,8 @@ namespace OrderFoodTeam.Models
         public int Quantity { get; set; }
         public string ReservationDate { get; set; }
         public string ReservationTime { get; set; }
-
-        
         public string FullName { get; set; }
-        public Table Table { get; set; }
+        public int NumberTable { get; set; }
+
     }
 }
