@@ -1,14 +1,15 @@
 /.vs/
 *.sln
 
-OrederFoodTeam/Areas/
-OrederFoodTeam/bin/
-OrederFoodTeam/Areas/
-OrederFoodTeam/obj/
-OrederFoodTeam/Properties/
-OrederFoodTeam/wwwroot/
+/OrderFoodTeam/Areas/
+/OrderFoodTeam/bin/
+/OrderFoodTeam/Areas/
+/OrderFoodTeam/obj/
+/OrderFoodTeam/Properties/
+/OrderFoodTeam/wwwroot/
 AppDbContext.cs
 appsettings.Development.json
+appsettings.json
 libman.json
 OrderFoodTeam.csproj
 OrderFoodTeam.csproj.user
