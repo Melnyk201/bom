@@ -1,0 +1,30 @@
+﻿@model OrderFoodTeam.ViewModel.ShopCartViewModel
+<div class="white_container register_container nav_top_menu" id="basket">
+    <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+
+
+                    <div class="registerMylass">
+                        <h2>Basket</h2>
+                    </div>
+
+                    <hr />
+                    <div class="container">
+                        @foreach (var el in Model.shopCart.ListShopItems)
+                        {
+                            <div class="alert alert-warning">
+                                <b>Product: </b> @el.Product.Name<br>
+                                <b>Price: </b> @el.Product.Price.ToString("c")<br>
+                                <a class="btn btn-primary" asp-controller="ShopCart" asp-action="RemoveFromShoppingCart" asp-route-id="@el.Product.id">Delete</a>
+                            </div>
+                        }
+                        <hr>
+                        <a class="btn btn-primary" asp-controller="Order" asp-action="Checkout">Pay</a>
+                        <a class="btn btn-primary" asp-controller="Product" asp-action="Menu">Back to menu</a>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+</div>

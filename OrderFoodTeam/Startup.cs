@@ -12,6 +12,8 @@ using OrderFoodTeam.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.AspNetCore.Http;
+using OrderFoodTeam.Models;
 
 namespace OrderFoodTeam
 {
@@ -36,13 +38,22 @@ namespace OrderFoodTeam
             //services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
             //.AddEntityFrameworkStores<ApplicationDbContext>();
 
+          
+
             services.AddDefaultIdentity<IdentityUser>()
                     .AddRoles<IdentityRole>()
                     .AddEntityFrameworkStores<ApplicationDbContext>();
 
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddScoped(sp => ShopCart.GetCart(sp));
 
-            services.AddControllersWithViews();
-            services.AddRazorPages();
+            services.AddMvc();
+
+            //services.AddControllersWithViews();
+            //services.AddRazorPages();
+
+            services.AddMemoryCache();
+            services.AddSession();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -62,6 +73,8 @@ namespace OrderFoodTeam
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+
+            app.UseSession();
 
             app.UseRouting();
 

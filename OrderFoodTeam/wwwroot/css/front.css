@@ -1,0 +1,81 @@
+﻿.nav_top_menu {
+    padding-top:60px;
+   margin-top:-60px;
+}
+.nav_top_product {
+    padding-top: 130px;
+    margin-top: -130px;
+}
+.item_delete
+{
+    margin:0 auto;
+    width: 50%;
+    display:block;
+}
+.item_delete label
+{
+    color:black;
+
+}
+.block_Product {
+        display: flex;
+        flex-wrap: wrap;
+}
+.itemMenu {
+    height:93%;   
+    margin-bottom:40px;
+}
+.but_for_reserv {
+    margin-bottom: 40px;
+}
+.btn_create_product a {
+    padding: 5px 100px;
+}
+.btn_create_product {
+    text-align:center;
+    margin-top:20px;
+}
+.but_edit_delete
+{
+    text-align:center;
+   
+}
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.location
+{
+    margin:40px 0;
+}
+.white_container
+{
+    background:white;
+    padding-bottom:50px;
+}
+.registerMylass h4 {
+    font-weight: 100;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    color: #FFA33E;
+    text-align: center;
+}
+.group_list p {
+    margin-bottom:5px;
+     
+}
+.item_delete
+{
+    margin: 0 auto;
+    display:block;
+
+
+}
+.item_delete dt{
+    font-weight:200;
+    color:black;
+
+}
