@@ -12,7 +12,7 @@ namespace OrderFoodTeam.Models
         public int id { get; set; }
         public bool Reserved { get; set; }
         public int SeatsQuantity {get;set;}
-        public ICollection<Order> Order { get; set; }
+ 
 
     }
 }

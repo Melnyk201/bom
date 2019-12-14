@@ -1,0 +1,30 @@
+﻿@model IEnumerable<OrderFoodTeam.Models.Reservation>
+@{
+    ViewBag.Title = "AllReservs";
+}
+
+
+
+    <p>AllReservs:</p>
+<table class="table">
+    <tr>
+        <td>Name</td>
+        <td> Quantity</td>
+        <td>ReservationDate</td>
+        <td>ReservationTime</td>
+        
+
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.FullName</td>
+            <td>@item.Quantity</td>
+            <td>@item.ReservationDate </td>
+            <td>@item.ReservationTime</td>
+            
+
+        </tr>
+    }
+</table>
