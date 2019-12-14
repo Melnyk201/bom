@@ -1,0 +1,65 @@
+﻿@model OrderFoodTeam.Models.Product
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="white_container register_container">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+
+
+                <div class="registerMylass">
+                    <h2>Create</h2>
+                </div>
+                <hr />
+                <div class="row item_delete">
+                    <div class="col-md-4">
+                        <form asp-action="Create">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <div class="form-group">
+                                <label asp-for="Name" class="control-label"></label>
+                                <input asp-for="Name" class="form-control" />
+                                <span asp-validation-for="Name" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Price" class="control-label"></label>
+                                <input asp-for="Price" class="form-control" />
+                                <span asp-validation-for="Price" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Description" class="control-label"></label>
+                                <input asp-for="Description" class="form-control" />
+                                <span asp-validation-for="Description" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="ProductEnum" class="control-label"></label>
+                                <select asp-for="ProductEnum" class="form-control"></select>
+                                <span asp-validation-for="ProductEnum" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="MeasurementEnum" class="control-label"></label>
+                                <select asp-for="MeasurementEnum" class="form-control"></select>
+                                <span asp-validation-for="MeasurementEnum" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Measurement" class="control-label"></label>
+                                <input asp-for="Measurement" class="form-control" />
+                                <span asp-validation-for="Measurement" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" value="Create" class="btn btn-primary" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div>
+                    <a asp-action="Menu" class="btn btn-primary">Back to List</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
