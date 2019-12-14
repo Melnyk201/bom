@@ -35,10 +35,6 @@ namespace OrderFoodTeam.Controllers
            
             return View(reserv);
 
-
-
-
-
         }
         public IActionResult Watch()
         {
