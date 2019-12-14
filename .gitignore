@@ -1,6 +1,5 @@
 /.vs/
-
-.OrderFoodTeam.sln
+*.sln
 
 OrederFoodTeam/Areas/
 OrederFoodTeam/bin/
