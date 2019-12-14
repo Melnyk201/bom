@@ -1013,3 +1013,4 @@ D:\proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\e_sqlite
 D:\proekt\OrderFoodTeam\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\e_sqlite3.dll
 D:\proekt\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Reservation\Submit.cshtml.g.cs
 D:\proekt\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Reservation\Watch.cshtml.g.cs
+D:\proekt\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\Reservation\Delete.cshtml.g.cs
