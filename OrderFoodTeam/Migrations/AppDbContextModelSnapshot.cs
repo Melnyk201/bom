@@ -146,6 +146,9 @@ namespace OrderFoodTeam.Migrations
                     b.Property<string>("ReservationTime")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
+
                     b.HasKey("Id");
 
                     b.ToTable("Reservation");

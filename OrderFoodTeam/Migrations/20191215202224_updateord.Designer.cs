@@ -10,8 +10,8 @@ using OrderFoodTeam;
 namespace OrderFoodTeam.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20191215195542_888")]
-    partial class _888
+    [Migration("20191215202224_updateord")]
+    partial class updateord
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -147,6 +147,9 @@ namespace OrderFoodTeam.Migrations
 
                     b.Property<string>("ReservationTime")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.HasKey("Id");
 

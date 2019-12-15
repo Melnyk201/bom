@@ -10083,11 +10083,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\4kurs\\Нова папка\\OrderFoodTeam\\OrderFoodTeam.csproj",
+      "projectUniqueName": "D:\\4kurs\\Team\\OrderFoodTeam\\OrderFoodTeam.csproj",
       "projectName": "OrderFoodTeam",
-      "projectPath": "D:\\4kurs\\Нова папка\\OrderFoodTeam\\OrderFoodTeam.csproj",
+      "projectPath": "D:\\4kurs\\Team\\OrderFoodTeam\\OrderFoodTeam.csproj",
       "packagesPath": "C:\\Users\\Olha Melnyk\\.nuget\\packages\\",
-      "outputPath": "D:\\4kurs\\Нова папка\\OrderFoodTeam\\obj\\",
+      "outputPath": "D:\\4kurs\\Team\\OrderFoodTeam\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Olha Melnyk\\AppData\\Roaming\\NuGet\\NuGet.Config",

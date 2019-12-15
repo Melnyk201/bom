@@ -3,14 +3,11 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace OrderFoodTeam.Migrations
 {
-    public partial class upord : Migration
+    public partial class updateord : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-           
-
-            
-
+          
             migrationBuilder.CreateTable(
                 name: "Order",
                 columns: table => new
@@ -21,40 +18,33 @@ namespace OrderFoodTeam.Migrations
                     Street = table.Column<string>(nullable: false),
                     HomeNumber = table.Column<string>(nullable: false),
                     OrderTime = table.Column<DateTime>(nullable: false),
-                    UserId = table.Column<Guid>(nullable: false),
-                    Productid = table.Column<int>(nullable: true)
+                    UserId = table.Column<Guid>(nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Order", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_Order_Product_Productid",
-                        column: x => x.Productid,
-                        principalTable: "Product",
-                        principalColumn: "id",
-                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
-                name: "ShopCartItem",
+                name: "Reservation",
                 columns: table => new
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Productid = table.Column<int>(nullable: true),
-                    Amount = table.Column<int>(nullable: false),
-                    ShopCartId = table.Column<string>(nullable: true)
+                    Quantity = table.Column<int>(nullable: false),
+                    ReservationDate = table.Column<string>(nullable: true),
+                    ReservationTime = table.Column<string>(nullable: true),
+                    FullName = table.Column<string>(nullable: true),
+                    NumberTable = table.Column<int>(nullable: false),
+                    UserId = table.Column<Guid>(nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_ShopCartItem", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_ShopCartItem_Product_Productid",
-                        column: x => x.Productid,
-                        principalTable: "Product",
-                        principalColumn: "id",
-                        onDelete: ReferentialAction.Restrict);
+                    table.PrimaryKey("PK_Reservation", x => x.Id);
                 });
+
+          
+           
 
             migrationBuilder.CreateTable(
                 name: "OrderDetail",
@@ -83,10 +73,26 @@ namespace OrderFoodTeam.Migrations
                         onDelete: ReferentialAction.Restrict);
                 });
 
-            migrationBuilder.CreateIndex(
-                name: "IX_Order_Productid",
-                table: "Order",
-                column: "Productid");
+            migrationBuilder.CreateTable(
+                name: "ShopCartItem",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Productid = table.Column<int>(nullable: true),
+                    Amount = table.Column<int>(nullable: false),
+                    ShopCartId = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_ShopCartItem", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_ShopCartItem_Product_Productid",
+                        column: x => x.Productid,
+                        principalTable: "Product",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                });
 
             migrationBuilder.CreateIndex(
                 name: "IX_OrderDetail_OrderId",
@@ -98,7 +104,7 @@ namespace OrderFoodTeam.Migrations
                 table: "OrderDetail",
                 column: "Productid");
 
-           
+          
 
             migrationBuilder.CreateIndex(
                 name: "IX_ShopCartItem_Productid",

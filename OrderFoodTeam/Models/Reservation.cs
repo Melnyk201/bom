@@ -15,6 +15,7 @@ namespace OrderFoodTeam.Models
         public string ReservationTime { get; set; }
         public string FullName { get; set; }
         public int NumberTable { get; set; }
+        public Guid UserId { get; set; }
 
     }
 }
