@@ -1914,3 +1914,4 @@ D:\4kurs\Нова папка\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam
 D:\4kurs\Нова папка\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.csproj.CopyComplete
 D:\4kurs\Нова папка\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.dll
 D:\4kurs\Нова папка\OrderFoodTeam\obj\Debug\netcoreapp3.0\OrderFoodTeam.pdb
+D:\4kurs\Team\OrderFoodTeam\obj\Debug\netcoreapp3.0\Razor\Views\OrderDetail\Index.cshtml.g.cs

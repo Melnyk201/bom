@@ -56,9 +56,6 @@ namespace OrderFoodTeam.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<Guid>("UserId")
-                        .HasColumnType("uniqueidentifier");
-
                     b.HasKey("Id");
 
                     b.ToTable("Order");
@@ -79,6 +76,9 @@ namespace OrderFoodTeam.Migrations
 
                     b.Property<int?>("Productid")
                         .HasColumnType("int");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.HasKey("Id");
 

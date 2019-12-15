@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNet.Identity;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using OrderFoodTeam.Models;
@@ -14,25 +15,26 @@ namespace OrderFoodTeam.Controllers
         private readonly ShopCart _shopCart;
        // private readonly Product _product;
         private readonly SignInManager<IdentityUser> _signInManager;
-        private readonly UserManager<IdentityUser> _userManager;
+        //private readonly UserManager<IdentityUser> _userManager;
 
-        public OrderController(AppDbContext context, ShopCart shopCart, SignInManager<IdentityUser> signInManager, UserManager<IdentityUser> userManager)
+        public OrderController(AppDbContext context, ShopCart shopCart, SignInManager<IdentityUser> signInManager)
         {
             _context = context;
             _shopCart = shopCart;
             _signInManager = signInManager;
-            _userManager = userManager;
+           // _userManager = userManager;
            // _product = product;
         }
 
         public ActionResult CreateOrder(Order order)
         {
             
-            /*if (_signInManager.IsSignedIn(User))
+            if (_signInManager.IsSignedIn(User))
             {
-                var userId = Guid.Parse((await _userManager.GetUserAsync(User)).Id);*/
-               
-                //order.UserId = "d";
+                //var userId = Guid.Parse((await _userManager.GetUserAsync(User)).Id);
+                //var user = await _userManager.FindByIdAsync(User);
+
+                var userId = Guid.Parse((User.Identity.GetUserId()));
                 order.OrderTime = DateTime.Now;
                
                 _context.Order.Add(order);
@@ -46,15 +48,16 @@ namespace OrderFoodTeam.Controllers
                     {
                         Product = element.Product,
                         Order = order,
-                        Price = element.Product.Price * element.Amount
+                        Price = element.Product.Price * element.Amount,
+                        UserId = userId
                     };
                     _context.OrderDetail.Add(orderDetail);
                 }
-            /*}
+            }
             else
             {
                 return Redirect($"/account/login");
-            }*/
+            }
             _context.SaveChanges();
             return Redirect($"/menu");
         }

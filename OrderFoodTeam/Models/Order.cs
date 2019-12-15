@@ -23,7 +23,7 @@ namespace OrderFoodTeam.Models
 
         public DateTime OrderTime { get; set; }
 
-        public Guid UserId { get; set; }
+       
         public ICollection<OrderDetail> OrderDetail { get; set; }
 
     }
