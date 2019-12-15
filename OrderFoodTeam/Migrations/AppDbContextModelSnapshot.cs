@@ -41,15 +41,25 @@ namespace OrderFoodTeam.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<string>("HomeNumber")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime>("OrderTime")
                         .HasColumnType("datetime2");
 
-                    b.Property<int?>("Productid")
-                        .HasColumnType("int");
+                    b.Property<string>("Street")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Town")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("Productid");
 
                     b.ToTable("Order");
                 });
@@ -64,8 +74,8 @@ namespace OrderFoodTeam.Migrations
                     b.Property<int?>("OrderId")
                         .HasColumnType("int");
 
-                    b.Property<long>("Price")
-                        .HasColumnType("bigint");
+                    b.Property<int>("Price")
+                        .HasColumnType("int");
 
                     b.Property<int?>("Productid")
                         .HasColumnType("int");
@@ -182,17 +192,10 @@ namespace OrderFoodTeam.Migrations
                     b.ToTable("Table");
                 });
 
-            modelBuilder.Entity("OrderFoodTeam.Models.Order", b =>
-                {
-                    b.HasOne("OrderFoodTeam.Models.Product", null)
-                        .WithMany("Order")
-                        .HasForeignKey("Productid");
-                });
-
             modelBuilder.Entity("OrderFoodTeam.Models.OrderDetail", b =>
                 {
                     b.HasOne("OrderFoodTeam.Models.Order", "Order")
-                        .WithMany()
+                        .WithMany("OrderDetail")
                         .HasForeignKey("OrderId");
 
                     b.HasOne("OrderFoodTeam.Models.Product", "Product")

@@ -9,9 +9,9 @@ namespace OrderFoodTeam.Models
     {
         public int Id { get; set; }
         public int Price { get; set; }
-        public int Productid { get; set; }
+      
         public virtual Product Product { get; set; }
-        public int OrderId { get; set; }
+       
         public virtual Order Order { get; set; }
 
     }

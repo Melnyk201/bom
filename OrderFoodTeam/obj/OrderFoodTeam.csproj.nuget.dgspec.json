@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\4kurs\\Team\\OrderFoodTeam\\OrderFoodTeam.csproj": {}
+    "D:\\4kurs\\Нова папка\\OrderFoodTeam\\OrderFoodTeam.csproj": {}
   },
   "projects": {
-    "D:\\4kurs\\Team\\OrderFoodTeam\\OrderFoodTeam.csproj": {
+    "D:\\4kurs\\Нова папка\\OrderFoodTeam\\OrderFoodTeam.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\4kurs\\Team\\OrderFoodTeam\\OrderFoodTeam.csproj",
+        "projectUniqueName": "D:\\4kurs\\Нова папка\\OrderFoodTeam\\OrderFoodTeam.csproj",
         "projectName": "OrderFoodTeam",
-        "projectPath": "D:\\4kurs\\Team\\OrderFoodTeam\\OrderFoodTeam.csproj",
+        "projectPath": "D:\\4kurs\\Нова папка\\OrderFoodTeam\\OrderFoodTeam.csproj",
         "packagesPath": "C:\\Users\\Olha Melnyk\\.nuget\\packages\\",
-        "outputPath": "D:\\4kurs\\Team\\OrderFoodTeam\\obj\\",
+        "outputPath": "D:\\4kurs\\Нова папка\\OrderFoodTeam\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Olha Melnyk\\AppData\\Roaming\\NuGet\\NuGet.Config",

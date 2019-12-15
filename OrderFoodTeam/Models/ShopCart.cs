@@ -37,7 +37,7 @@ namespace OrderFoodTeam.Models
 
         public void AddToCart(Product product, int amount)
         {
-             /*var shoppingCartItem =
+             var shoppingCartItem =
                     _context.ShopCartItem.SingleOrDefault(
                         s => s.Product.id == product.id && s.ShopCartId == ShopCartId);
              if (shoppingCartItem == null)
@@ -55,14 +55,7 @@ namespace OrderFoodTeam.Models
              else
              {
                  shoppingCartItem.Amount++;
-             }*/
-            _context.ShopCartItem.Add(new ShopCartItem
-            {
-                ShopCartId = ShopCartId,
-                Product = product,
-                Amount = 1
-
-            });
+             }
             _context.SaveChanges();
         }
         public void RemoveFromCart(Product product)
@@ -78,13 +71,9 @@ namespace OrderFoodTeam.Models
         }
         public List<ShopCartItem> getShopItems()
         {
-            /*return _context.ShopCartItem
-                .Where(c => c.ShopCartId == ShopCartId)
-                .Include(s => s.Product).ToList();*/
             return _context.ShopCartItem
                 .Where(c => c.ShopCartId == ShopCartId)
-                .Include(s => s.Product)
-                .ToList();
+                .Include(s => s.Product).ToList();
 
         }
     }

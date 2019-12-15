@@ -13,11 +13,12 @@
                     <div class="container">
                         @foreach (var el in Model.shopCart.ListShopItems)
                         {
-                            <div class="alert alert-warning">
-                                <b>Product: </b> @el.Product.Name<br>
-                                <b>Price: </b> @el.Product.Price.ToString("c")<br>
-                                <a class="btn btn-primary" asp-controller="ShopCart" asp-action="RemoveFromShoppingCart" asp-route-id="@el.Product.id">Delete</a>
-                            </div>
+                        <div class="alert alert-warning">
+                            <b>Product: </b> @el.Product.Name<br>
+                            <b>Price: </b> @el.Product.Price.ToString("c")<br>
+                            <b>Amount: </b>@el.Amount<br>
+                            <a class="btn btn-primary" asp-controller="ShopCart" asp-action="RemoveFromShoppingCart" asp-route-id="@el.Product.id">Delete</a>
+                        </div>
                         }
                         <hr>
                         <a class="btn btn-primary" asp-controller="Order" asp-action="Checkout">Pay</a>

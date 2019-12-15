@@ -19,6 +19,9 @@ namespace OrderFoodTeam.Controllers
             _context = context;
             _shopCart = shopCart;
         }
+
+      
+
         public ViewResult Index()
         {
             var items = _shopCart.getShopItems();
