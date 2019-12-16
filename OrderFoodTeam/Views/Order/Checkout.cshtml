@@ -4,7 +4,7 @@
     ViewData["Title"] = "Create";
 }
 
-<div class="white_container register_container nav_top_menu" id="create">
+<div class="white_container register_container nav_top_menu" id="checkout">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -35,7 +35,7 @@
                                 <input asp-for="HomeNumber" class="form-control" />
                                 <span asp-validation-for="HomeNumber" class="text-danger"></span>
                             </div>
-                            <input class="btn btn-primary" type="submit" value="Confirm Pay" />
+                            <input class="btn btn-primary" type="submit" value="Confirm Pay" asp-fragment="complete"/>
                         </form>
                        
                     </div>

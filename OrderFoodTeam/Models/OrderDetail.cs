@@ -12,6 +12,7 @@ namespace OrderFoodTeam.Models
       
         public virtual Product Product { get; set; }
        
+       
         public virtual Order Order { get; set; }
         public Guid UserId { get; set; }
 

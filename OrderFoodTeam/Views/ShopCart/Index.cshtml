@@ -1,10 +1,15 @@
-﻿@model OrderFoodTeam.ViewModel.ShopCartViewModel
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+@model OrderFoodTeam.ViewModel.ShopCartViewModel
+
 <div class="white_container register_container nav_top_menu" id="basket">
     <div class="container">
-            <div class="row">
-                <div class="col-md-12">
+        <div class="row">
+            <div class="col-md-12">
 
-
+                @if (SignInManager.IsSignedIn(User))
+                {
                     <div class="registerMylass">
                         <h2>Basket</h2>
                     </div>
@@ -13,19 +18,34 @@
                     <div class="container">
                         @foreach (var el in Model.shopCart.ListShopItems)
                         {
-                        <div class="alert alert-warning">
-                            <b>Product: </b> @el.Product.Name<br>
-                            <b>Price: </b> @el.Product.Price.ToString("c")<br>
-                            <b>Amount: </b>@el.Amount<br>
-                            <a class="btn btn-primary" asp-controller="ShopCart" asp-action="RemoveFromShoppingCart" asp-route-id="@el.Product.id">Delete</a>
-                        </div>
+                            <div class="alert alert-info">
+                                <b>Product: </b> @el.Product.Name<br>
+                                <b>Price: </b> @el.Product.Price.ToString("c")<br>
+                                <b>Amount: </b>@el.Amount<br>
+                                <a class="btn btn-primary" asp-controller="ShopCart" asp-action="RemoveFromShoppingCart" asp-route-id="@el.Product.id">Delete</a>
+                            </div>
                         }
                         <hr>
-                        <a class="btn btn-primary" asp-controller="Order" asp-action="Checkout">Pay</a>
-                        <a class="btn btn-primary" asp-controller="Product" asp-action="Menu">Back to menu</a>
+                        <a class="btn btn-primary" asp-controller="Order" asp-action="Checkout" asp-fragment="checkout">Pay</a>
+                        <a class="btn btn-primary" asp-controller="Product" asp-action="Menu" asp-fragment="menu">Back to menu</a>
+                        <a asp-action="Index" asp-controller="OrderDetail" class="btn btn-primary" asp-fragment="orderdetail">Show</a>
                     </div>
-                </div>
+                }
+                else
+                {
+                    <div class="white_container register_container ">
+                        <h2 class="primary-heading">For order food you need: </h2><hr>
+                        <div class="col-md-4 col-md-offset-4 but_for_reserv">
+                            <a class="btn btn-lg btn-primary btn-block" asp-area="Identity" asp-page="/Account/Login" asp-fragment="login">Login</a>
+                        </div>
+                        <div class="col-md-4 col-md-offset-4">
+                            <a class="btn btn-lg btn-primary btn-block" asp-area="Identity" asp-page="/Account/Register" asp-fragment="registration">Registration</a>
+                        </div>
+                    </div>
+
+                }
             </div>
+        </div>
     </div>
 
 </div>

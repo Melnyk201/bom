@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using OrderFoodTeam.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNet.Identity;
 
 namespace OrderFoodTeam.Controllers
 {
@@ -28,8 +29,8 @@ namespace OrderFoodTeam.Controllers
 
             int p; 
             Int32.TryParse(people, out p);
-            
-            Reservation reserv = new Reservation { Quantity = p, ReservationDate = date, ReservationTime = time, FullName = name, NumberTable = table };
+            var userId = Guid.Parse((User.Identity.GetUserId()));
+            Reservation reserv = new Reservation { Quantity = p, ReservationDate = date, ReservationTime = time, FullName = name, NumberTable = table,UserId = userId };
             _context.Add(reserv);
             _context.SaveChangesAsync();
 
