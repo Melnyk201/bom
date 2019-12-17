@@ -21,7 +21,7 @@ namespace OrderFoodTeam.Controllers
         {
             _context = context;
         }
-
+       
         // GET: Product
         //[Authorize(Roles = "admin")]
         public ActionResult Menu(int page = 1, int productIdentity = 2)
@@ -30,7 +30,7 @@ namespace OrderFoodTeam.Controllers
             var Product = new List<Product>();
             ProductEnum valueDish = ProductEnum.Dish;
             ProductEnum valueDrink = ProductEnum.Drink;
-            //ViewBag.CurrentPage = page;
+            ViewBag.CurrentPage = page;
             //ViewBag.ProductIdentity = productIdentity;
             int count;
             if (productIdentity == 0)
@@ -41,7 +41,7 @@ namespace OrderFoodTeam.Controllers
                       .Take(PAGE_SIZE)
                       .ToList();
                 count = _context.Product.Where(p => p.ProductEnum == valueDish).Select(i => i.id).Count();
-                page = 1;
+              
             }
             else if (productIdentity == 1)
             {
@@ -51,7 +51,7 @@ namespace OrderFoodTeam.Controllers
                    .Skip((page - 1) * PAGE_SIZE)
                    .Take(PAGE_SIZE).ToList();
                 count = _context.Product.Where(p => p.ProductEnum == valueDrink).Select(i => i.id).Count();
-                page = 1;
+               
             }
             else 
             {
@@ -60,9 +60,9 @@ namespace OrderFoodTeam.Controllers
                       Take(PAGE_SIZE).
                       ToList();
                 count = _context.Product.Select(i => i.id).Count();
-                page = 1;
+               
             }
-            ViewBag.CurrentPage = page;
+            //ViewBag.CurrentPage = page;
             ViewBag.ProductIdentity = productIdentity;
             //var count = _context.Product.Select(i => i.id).Count();
             ViewBag.PageCount = (int)Math.Ceiling((double)count / PAGE_SIZE);

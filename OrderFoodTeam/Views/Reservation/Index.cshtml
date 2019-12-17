@@ -42,10 +42,15 @@
                                                                     <label for="date">Date</label>
                                                                     <div class="form-field">
                                                                         <i class="icon icon-calendar"></i>
-                                                                        <input name="date" type="text" id="date" class="form-control" required>
+                                                                        <input name="date" type="text" id="davaToday" class="form-control" min="2019-12-16" required>
                                                                     </div>
                                                                 </div>
+                                                                <script>
+                                                                    document.getElementById('davaToday').valueAsDate = new Date();
+                                                                </script>
                                                             </div>
+
+                                                           
                                                             <div class="col-md-4">
                                                                 <div class="form-group">
                                                                     <label for="time">Time</label>

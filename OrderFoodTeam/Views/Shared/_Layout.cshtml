@@ -27,17 +27,17 @@
             </div>
 
             <div id="navbar-collapse" class="navbar-collapse collapse">
-               
+
                 <ul class="nav navbar-nav navbar-right">
                     <li><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Main</a></li>
                     <li> <a class="nav-link text-dark" asp-area="" asp-controller="Product" asp-action="Menu" asp-fragment="menu"> Menu</a>
 
                     <li> <a class="nav-link text-dark" asp-area="" asp-controller="Reservation" asp-action="Index" asp-fragment="reservation">Reservation</a></li>
-                    <li> <a class="nav-link text-dark" asp-area="" asp-controller="ShopCart" asp-action="Index" asp-fragment="basket">Basket</a></li>
+                   
                     <li> <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Location" asp-fragment="location">Location</a></li>
                     @if (User.IsInRole("admin"))
                     {
-                        <li> <a class="nav-link text-dark" asp-area="" asp-controller="Reservation" asp-action="Watch">Watch All Reserv</a></li>
+                        <li> <a class="nav-link text-dark" asp-area="" asp-controller="Reservation" asp-action="Watch">All Reserv</a></li>
 
                     }
                     <partial name="_LoginPartial" />
@@ -93,9 +93,14 @@
 
     <main role="main" class="pb-3">
         @RenderBody()
+        <a class="add_palitra" asp-area="" asp-controller="ShopCart" asp-action="Index" asp-fragment="basket">
+            <img title="cart" src="~/img/empty_cart_icon.png" alt="buttons"/>
+
+
+        </a>
     </main>
 
-   
+
     <!---->
     <footer>
         <div class="container">
@@ -110,10 +115,10 @@
                         <a href="mailto:youremailaddress">Email Me</a>
                     </div>
                     <div class="col-md-4">
-                       
-                            <p style="text-transform:uppercase; color:black">Our Store</p>
-                            <span class="seperator">* * *</span>
-                       
+
+                        <p style="text-transform:uppercase; color:black">Our Store</p>
+                        <span class="seperator">* * *</span>
+
                         <p>Voluptatibus quaerat laboriosam fugit non Ut consequatur animi est molestiae enim a voluptate totam natus modi debitis dicta impedit voluptatum quod sapiente illo saepe explicabo quisquam perferendis labore et illum suscipit</p>
                         <p><a href="#">About Us</a></p>
                     </div>
@@ -126,19 +131,21 @@
                             <li><a>Youtube </a><a href="https://www.youtube.com" target="_blank"><img src="/img/youtube.png" height="20" width="20" alt="Youtube" title="Youtube" /></a></li>
                             <li><a>E-mail </a><a href="https://www.youtube.com" target="_blank"><img src="/img/gmail.png" height="20" width="20" alt="Gmail" title="Gmail" /></a></li>
                         </ul>
-                       
+
 
                     </div>
                 </div>
-                <div class="footer_bot">Reservation Table.2019.&copy;</div> 
-                
+                <div class="footer_bot">Reservation Table.2019.&copy;</div>
+
             </div>
         </div>
-        </footer>
-   <!---->
+    </footer>
+    <!---->
+   
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/site.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="~/js/scripts.js"></script>
     <script src="~/js/custom.js"></script>
     @RenderSection("Scripts", required: false)

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using OrderFoodTeam.Models;
@@ -13,7 +14,7 @@ namespace OrderFoodTeam.Controllers
     {
         private readonly AppDbContext _context;
         private readonly ShopCart _shopCart;
-       // private readonly Product _product;
+      // private readonly Product _product;
         private readonly SignInManager<IdentityUser> _signInManager;
         //private readonly UserManager<IdentityUser> _userManager;
 
@@ -22,17 +23,16 @@ namespace OrderFoodTeam.Controllers
             _context = context;
             _shopCart = shopCart;
             _signInManager = signInManager;
-           // _userManager = userManager;
-           // _product = product;
+          
         }
 
         public ActionResult CreateOrder(Order order)
         {
+            Product pr = new Product();
             
             if (_signInManager.IsSignedIn(User))
             {
-                //var userId = Guid.Parse((await _userManager.GetUserAsync(User)).Id);
-                //var user = await _userManager.FindByIdAsync(User);
+               
 
                 var userId = Guid.Parse((User.Identity.GetUserId()));
                 order.OrderTime = DateTime.Now;
@@ -41,7 +41,7 @@ namespace OrderFoodTeam.Controllers
                 
             
             var items = _shopCart.ListShopItems;
-
+            
                 foreach(var element in items)
                 {
                     var orderDetail = new OrderDetail()
@@ -84,6 +84,7 @@ namespace OrderFoodTeam.Controllers
         public IActionResult Complete()
         {
             ViewBag.Message = "Successful";
+            
             return View();
         }
         

@@ -22,68 +22,91 @@
                 {
                     <p class="btn_create_product">
                         <!---->
-                        <a asp-action="Create"  class="btn btn-primary btn_create_product" asp-fragment="create">Create New</a>
+                        <a asp-action="Create" class="btn btn-primary btn_create_product" asp-fragment="create">Create New</a>
                     </p>
                 }
-            <div class="category_product">
-                <a href="/product/menu?page=@(ViewBag.CurrentPage)&productIdentity=2#MenuItem" class="btn btn-primary">All</a>
-                <a href="/product/menu?page=@(ViewBag.CurrentPage)&productIdentity=0#MenuItem" class="btn btn-primary">Food</a>
-                <a href="/product/menu?page=@(ViewBag.CurrentPage)&productIdentity=1#MenuItem" class="btn btn-primary">Drink</a>
 
-            </div>
-            <div class="row nav_top_product" id="MenuItem">
-                <div class="block_Product">
-                    @foreach (var item in Model)
-                    {
-                        
-                        <div class="col-md-4">
+                @if (ViewBag.ProductIdentity == 2)
+                {
+                    <div class="category_product">
+                        <a href="/product/menu?page=@(ViewBag.CurrentPage)&productIdentity=2#MenuItem" class="btn btn-primary is-active">All</a>
+                        <a href="/product/menu?page=@(ViewBag.CurrentPage)&productIdentity=0#MenuItem" class="btn btn-primary">Food</a>
+                        <a href="/product/menu?page=@(ViewBag.CurrentPage)&productIdentity=1#MenuItem" class="btn btn-primary">Drink</a>
 
-                            <div class="itemMenu">
+                    </div>
+                }
+                else if (ViewBag.ProductIdentity == 1)
+                {
+                    <div class="category_product">
+                        <a href="/product/menu?page=@(ViewBag.CurrentPage)&productIdentity=2#MenuItem" class="btn btn-primary">All</a>
+                        <a href="/product/menu?page=@(ViewBag.CurrentPage)&productIdentity=0#MenuItem" class="btn btn-primary">Food</a>
+                        <a href="/product/menu?page=@(ViewBag.CurrentPage)&productIdentity=1#MenuItem" class="btn btn-primary is-active">Drink</a>
+
+                    </div>
+                }
+                else
+                {
+                    <div class="category_product">
+                        <a href="/product/menu?page=@(ViewBag.CurrentPage)&productIdentity=2#MenuItem" class="btn btn-primary">All</a>
+                        <a href="/product/menu?page=@(ViewBag.CurrentPage)&productIdentity=0#MenuItem" class="btn btn-primary is-active">Food</a>
+                        <a href="/product/menu?page=@(ViewBag.CurrentPage)&productIdentity=1#MenuItem" class="btn btn-primary ">Drink</a>
+
+                    </div>
+
+                }
+                <div class="row nav_top_product" id="MenuItem">
+                    <div class="block_Product">
+                        @foreach (var item in Model)
+                        {
+
+                            <div class="col-md-4">
+
+                                <div class="itemMenu">
 
 
 
-                                <div class="col-md-12">
-                                    <img src="~/img/@item.Image.Url" alt="Alternate Text" class="img-thumbnail center-block" />
-                                </div>
-                               
-                                <h5>@Html.DisplayFor(modelItem => item.Name)</h5>
-                                <p class="description">
-                                    @Html.DisplayFor(modelItem => item.Description)
-                                </p>
-                                <div class="measurment"><h6>Measurment :<span>@Html.DisplayFor(modelItem => item.Measurement)</span></h6></div>
-
-                                <div class="price"><h6>Price :<span>@Html.DisplayFor(modelItem => item.Price)</span></h6></div>
-                                <a class="btn btn-primary center-block" asp-controller="ShopCart" asp-action="addToCart" asp-route-id="@item.id" asp-fragment="basket" style="margin-bottom:10px">Add to basket</a>
-
-                               
-
-                                @if (User.IsInRole("admin"))
-                                {
-                                    <div class="but_edit_delete">
-                                        <a asp-action="Edit" asp-route-id="@item.id" class="btn btn-primary" asp-fragment="edit">Edit</a>
-                                        <!--<a asp-action="Details" asp-route-id="@item.id">Details</a>-->
-                                        <a asp-action="Delete" asp-route-id="@item.id" class="btn btn-primary" asp-fragment="delete">Delete</a>
+                                    <div class="col-md-12">
+                                        <img src="~/img/@item.Image.Url" alt="Alternate Text" class="img-thumbnail center-block" />
                                     </div>
-                                }
 
+                                    <h5>@Html.DisplayFor(modelItem => item.Name)</h5>
+                                    <p class="description">
+                                        @Html.DisplayFor(modelItem => item.Description)
+                                    </p>
+                                    <div class="measurment"><h6>Measurment :<span>@Html.DisplayFor(modelItem => item.Measurement)</span></h6></div>
+
+                                    <div class="price"><h6>Price :<span>@Html.DisplayFor(modelItem => item.Price)</span></h6></div>
+                                    <a class="btn btn-primary center-block add_to_cart" asp-controller="ShopCart" asp-action="addToCart" asp-route-id="@item.id" asp-fragment="basket" style="margin-bottom:10px">Add to cart</a>
+
+
+
+                                    @if (User.IsInRole("admin"))
+                                    {
+                                        <div class="but_edit_delete">
+                                            <a asp-action="Edit" asp-route-id="@item.id" class="btn btn-primary" asp-fragment="edit">Edit</a>
+                                            <!--<a asp-action="Details" asp-route-id="@item.id">Details</a>-->
+                                            <a asp-action="Delete" asp-route-id="@item.id" class="btn btn-primary" asp-fragment="delete">Delete</a>
+                                        </div>
+                                    }
+
+
+                                </div>
 
                             </div>
 
-                        </div>
-
-                    }
+                        }
+                    </div>
                 </div>
-            </div>
                 <tr>
                     <td colspan="8" class="text-center">
                         <ul class="pagination">
                             @if (ViewBag.CurrentPage == 1)
                             {
-                                <li class="page-item disabled"><span class="page-link">Попередній</span></li>
+                                <li class="page-item disabled"><span class="page-link">Previous</span></li>
                             }
                             else
                             {
-                                <li class="page-item"><a class="page-link" href="/product/menu?page=@(ViewBag.CurrentPage - 1)&productIdentity=@(ViewBag.ProductIdentity)#MenuItem">Попередній</a></li>
+                                <li class="page-item"><a class="page-link" href="/product/menu?page=@(ViewBag.CurrentPage - 1)&productIdentity=@(ViewBag.ProductIdentity)#MenuItem">Previous</a></li>
                             }
                             @for (int i = 1; i <= ViewBag.PageCount; i++)
                             {
@@ -98,11 +121,11 @@
                             }
                             @if (ViewBag.CurrentPage == ViewBag.PageCount)
                             {
-                                <li class="page-item disabled"><span class="page-link">Наступний</span></li>
+                                <li class="page-item disabled"><span class="page-link">Next</span></li>
                             }
                             else
                             {
-                                <li class="page-item"><a class="page-link" href="/product/menu?page=@(ViewBag.CurrentPage + 1)&productIdentity=@(ViewBag.ProductIdentity)#MenuItem">Наступний</a></li>
+                                <li class="page-item"><a class="page-link" href="/product/menu?page=@(ViewBag.CurrentPage + 1)&productIdentity=@(ViewBag.ProductIdentity)#MenuItem">Next</a></li>
                             }
                         </ul>
                     </td>

@@ -27,12 +27,12 @@ namespace OrderFoodTeam.Models
             ISession session = services.GetRequiredService<IHttpContextAccessor>()?.HttpContext.Session;
 
             var context = services.GetService<AppDbContext>();
-            string shopCartId = session.GetString("ProductId") ?? Guid.NewGuid().ToString();
+            string shopCartId = session.GetString("CartId") ?? Guid.NewGuid().ToString();
 
-            session.SetString("ProductId", shopCartId);
-
+            session.SetString("CartId", shopCartId);
+          
             return new ShopCart(context) { ShopCartId = shopCartId };
-
+           
         }
 
         public void AddToCart(Product product, int amount)
@@ -57,6 +57,9 @@ namespace OrderFoodTeam.Models
                  shoppingCartItem.Amount++;
              }
             _context.SaveChanges();
+           
+
+
         }
         public void RemoveFromCart(Product product)
         {
@@ -71,9 +74,10 @@ namespace OrderFoodTeam.Models
         }
         public List<ShopCartItem> getShopItems()
         {
-            return _context.ShopCartItem
+            var list = _context.ShopCartItem
                 .Where(c => c.ShopCartId == ShopCartId)
                 .Include(s => s.Product).ToList();
+            return list;
 
         }
     }
