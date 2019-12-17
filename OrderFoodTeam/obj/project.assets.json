@@ -10084,11 +10084,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Proekt\\OrderFoodTeam\\OrderFoodTeam.csproj",
+      "projectUniqueName": "D:\\proekt\\OrderFoodTeam\\OrderFoodTeam.csproj",
       "projectName": "OrderFoodTeam",
-      "projectPath": "D:\\Proekt\\OrderFoodTeam\\OrderFoodTeam.csproj",
+      "projectPath": "D:\\proekt\\OrderFoodTeam\\OrderFoodTeam.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\Proekt\\OrderFoodTeam\\obj\\",
+      "outputPath": "D:\\proekt\\OrderFoodTeam\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
