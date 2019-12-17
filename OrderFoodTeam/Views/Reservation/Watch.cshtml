@@ -5,36 +5,38 @@
 
 
 
-<p>AllReservs:</p>
-<table class="table">
-    <tr>
-        <td>Delete</td>
-        <td>Name</td>
-        <td> Quantity</td>
-        <td>ReservationDate</td>
-        <td>ReservationTime</td>
+    <div class="col-md-12">
+        <h4>All Reservs:</h4>
+        <table class="table">
+            <tr>
+                <td><h5>Delete</h5></td>
+                <td><h5>Name</h5></td>
+                <td><h5> Quantity</h5></td>
+                <td><h5>ReservationDate</h5></td>
+                <td><h5>ReservationTime</h5></td>
 
 
-    </tr>
+            </tr>
 
-    @foreach (var item in Model)
-    {
-        <tr>
-            <td>
-
-
-
-                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-primary" asp-fragment="delete">Delete</a>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
 
 
 
-            </td>
-            <td> @item.FullName</td>
-            <td>@item.Quantity</td>
-            <td>@item.ReservationDate </td>
-            <td>@item.ReservationTime</td>
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-primary" asp-fragment="delete">Delete</a>
 
 
-        </tr>
-    }
-</table>
+
+                    </td>
+                    <td><h5> @item.FullName</h5></td>
+                    <td><h5>@item.Quantity</h5></td>
+                    <td><h5>@item.ReservationDate</h5> </td>
+                    <td><h5>@item.ReservationTime</h5></td>
+
+
+                </tr>
+            }
+        </table>
+        </div>
