@@ -37,29 +37,29 @@ namespace OrderFoodTeam.Controllers
             {
                 Product = _context.Product.Include(i => i.Image)
                       .Where(p => p.ProductEnum == valueDish)
-                      .OrderBy(p => p.id).Skip((page - 1) * PAGE_SIZE)
+                      .OrderBy(p => p.Id).Skip((page - 1) * PAGE_SIZE)
                       .Take(PAGE_SIZE)
                       .ToList();
-                count = _context.Product.Where(p => p.ProductEnum == valueDish).Select(i => i.id).Count();
+                count = _context.Product.Where(p => p.ProductEnum == valueDish).Select(i => i.Id).Count();
               
             }
             else if (productIdentity == 1)
             {
                 Product = _context.Product.Include(i => i.Image)
                    .Where(p => p.ProductEnum == valueDrink)
-                   .OrderBy(p => p.id)
+                   .OrderBy(p => p.Id)
                    .Skip((page - 1) * PAGE_SIZE)
                    .Take(PAGE_SIZE).ToList();
-                count = _context.Product.Where(p => p.ProductEnum == valueDrink).Select(i => i.id).Count();
+                count = _context.Product.Where(p => p.ProductEnum == valueDrink).Select(i => i.Id).Count();
                
             }
             else 
             {
                 Product = _context.Product.Include(i => i.Image).
-                      OrderBy(p => p.id).Skip((page - 1) * PAGE_SIZE).
+                      OrderBy(p => p.Id).Skip((page - 1) * PAGE_SIZE).
                       Take(PAGE_SIZE).
                       ToList();
-                count = _context.Product.Select(i => i.id).Count();
+                count = _context.Product.Select(i => i.Id).Count();
                
             }
             //ViewBag.CurrentPage = page;
@@ -78,7 +78,7 @@ namespace OrderFoodTeam.Controllers
             }
 
             var product = await _context.Product
-                .FirstOrDefaultAsync(m => m.id == id);
+                .FirstOrDefaultAsync(m => m.Id == id);
             if (product == null)
             {
                 return NotFound();
@@ -132,7 +132,7 @@ namespace OrderFoodTeam.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("id,Name,Price,Description,ProductEnum,MeasurementEnum,Measurement")] Product product)
         {
-            if (id != product.id)
+            if (id != product.Id)
             {
                 return NotFound();
             }
@@ -146,7 +146,7 @@ namespace OrderFoodTeam.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!ProductExists(product.id))
+                    if (!ProductExists(product.Id))
                     {
                         return NotFound();
                     }
@@ -169,7 +169,7 @@ namespace OrderFoodTeam.Controllers
             }
 
             var product = await _context.Product
-                .FirstOrDefaultAsync(m => m.id == id);
+                .FirstOrDefaultAsync(m => m.Id == id);
             if (product == null)
             {
                 return NotFound();
@@ -191,7 +191,7 @@ namespace OrderFoodTeam.Controllers
 
         private bool ProductExists(int id)
         {
-            return _context.Product.Any(e => e.id == id);
+            return _context.Product.Any(e => e.Id == id);
         }
     }
 }

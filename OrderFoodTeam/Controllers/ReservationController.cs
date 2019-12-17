@@ -24,7 +24,7 @@ namespace OrderFoodTeam.Controllers
             _context = context;
         }
 
-        public IActionResult Submit(string people, string date, string time, string name, int table)
+        public async Task<ActionResult> Submit(string people, string date, string time, string name, int table)
         {
 
             int p;
@@ -41,7 +41,7 @@ namespace OrderFoodTeam.Controllers
             ResTable.Reserved = true;
 
             // Сохранить изменения
-            _context.SaveChangesAsync();
+            await _context.SaveChangesAsync();
 
             return View(reserv);
 
@@ -81,13 +81,14 @@ namespace OrderFoodTeam.Controllers
 
         }
 
-        public ActionResult Delete(int id)
+        public async Task<ActionResult> Delete(int id)
         {
             Reservation b = _context.Reservation.Find(id);
             if (b != null)
             {
                 _context.Reservation.Remove(b);
 
+                await _context.SaveChangesAsync();
             }
             var ResTable = _context.Table
            .Where(c => c.id == b.NumberTable)
@@ -97,8 +98,8 @@ namespace OrderFoodTeam.Controllers
             ResTable.Reserved = false;
 
             // Сохранить изменения
-            _context.SaveChangesAsync();
-            return RedirectToAction("Index");
+            await _context.SaveChangesAsync();
+            return RedirectToAction("MyRes");
         }
     }
 }

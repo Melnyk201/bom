@@ -9,7 +9,7 @@ namespace OrderFoodTeam.Models
     public class Product
     {
         [Key]
-        public int id { get; set; }
+        public int Id { get; set; }
 
         public string Name { get; set; }
         public int Price { get; set; }
@@ -21,9 +21,6 @@ namespace OrderFoodTeam.Models
         public int Measurement { get; set; }
         public Image Image { get; set; } 
        
-        
-       
-
     }
    
     public enum ProductEnum : byte

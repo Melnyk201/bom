@@ -35,7 +35,7 @@ namespace OrderFoodTeam.Controllers
         }
         public RedirectToActionResult addToCart(int id)
         {
-            var item = _context.Product.FirstOrDefault(i => i.id == id);
+            var item = _context.Product.FirstOrDefault(i => i.Id == id);
             if(item != null)
             {
                 _shopCart.AddToCart(item,1);
@@ -45,7 +45,7 @@ namespace OrderFoodTeam.Controllers
         }
         public RedirectToActionResult RemoveFromShoppingCart(int id)
         {
-            var item = _context.Product.FirstOrDefault(i => i.id == id);
+            var item = _context.Product.FirstOrDefault(i => i.Id == id);
             if (item != null)
             {
                 _shopCart.RemoveFromCart(item);

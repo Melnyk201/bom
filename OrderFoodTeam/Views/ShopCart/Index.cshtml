@@ -11,7 +11,7 @@
                 @if (SignInManager.IsSignedIn(User))
                 {
                     <div class="registerMylass">
-                        <h2>Basket</h2>
+                        <h2>Cart</h2>
                     </div>
 
                     <hr />
@@ -25,7 +25,7 @@
                                 <b>Product: </b> @el.Product.Name<br>
                                 <b>Price: </b> @el.Product.Price.ToString("c")<br>
                                 <b>Amount: </b>@el.Amount<br>
-                                <a class="btn btn-primary" asp-controller="ShopCart" asp-action="RemoveFromShoppingCart" asp-route-id="@el.Product.id">Delete</a>
+                                <a class="btn btn-primary" asp-controller="ShopCart" asp-action="RemoveFromShoppingCart" asp-route-id="@el.Product.Id">Delete</a>
                             </div>
                             
                         }

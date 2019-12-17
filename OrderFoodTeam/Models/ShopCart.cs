@@ -34,12 +34,18 @@ namespace OrderFoodTeam.Models
             return new ShopCart(context) { ShopCartId = shopCartId };
            
         }
-
+        public static ShopCart ClearSession(IServiceProvider services)
+        {
+            ISession session = services.GetRequiredService<IHttpContextAccessor>()?.HttpContext.Session;
+            var context = services.GetService<AppDbContext>();
+            session.Clear();
+            return new ShopCart(context);
+        }
         public void AddToCart(Product product, int amount)
         {
              var shoppingCartItem =
                     _context.ShopCartItem.SingleOrDefault(
-                        s => s.Product.id == product.id && s.ShopCartId == ShopCartId);
+                        s => s.Product.Id == product.Id && s.ShopCartId == ShopCartId);
              if (shoppingCartItem == null)
              {
                  shoppingCartItem = new ShopCartItem
@@ -65,7 +71,7 @@ namespace OrderFoodTeam.Models
         {
             var shoppingCartItem =
                     _context.ShopCartItem.SingleOrDefault(
-                        s => s.Product.id == product.id && s.ShopCartId == ShopCartId);
+                        s => s.Product.Id == product.Id && s.ShopCartId == ShopCartId);
 
             _context.ShopCartItem.Remove(shoppingCartItem);
             _context.SaveChanges();
@@ -80,5 +86,6 @@ namespace OrderFoodTeam.Models
             return list;
 
         }
+       
     }
 }

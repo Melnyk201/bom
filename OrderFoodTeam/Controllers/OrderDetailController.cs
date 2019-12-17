@@ -17,6 +17,7 @@ namespace OrderFoodTeam.Controllers
         public ActionResult Index()
         {
             var all = _context.OrderDetail.Include(i => i.Product).ToList();
+            var test = _context.OrderDetail.Include(i => i.Order).ToList();
             return View(all);
         }
     }

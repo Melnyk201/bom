@@ -76,16 +76,16 @@
                                     <div class="measurment"><h6>Measurment :<span>@Html.DisplayFor(modelItem => item.Measurement)</span></h6></div>
 
                                     <div class="price"><h6>Price :<span>@Html.DisplayFor(modelItem => item.Price)</span></h6></div>
-                                    <a class="btn btn-primary center-block add_to_cart" asp-controller="ShopCart" asp-action="addToCart" asp-route-id="@item.id" asp-fragment="basket" style="margin-bottom:10px">Add to cart</a>
+                                    <a class="btn btn-primary center-block add_to_cart" asp-controller="ShopCart" asp-action="addToCart" asp-route-id="@item.Id" asp-fragment="basket" style="margin-bottom:10px">Add to cart</a>
 
 
 
                                     @if (User.IsInRole("admin"))
                                     {
                                         <div class="but_edit_delete">
-                                            <a asp-action="Edit" asp-route-id="@item.id" class="btn btn-primary" asp-fragment="edit">Edit</a>
-                                            <!--<a asp-action="Details" asp-route-id="@item.id">Details</a>-->
-                                            <a asp-action="Delete" asp-route-id="@item.id" class="btn btn-primary" asp-fragment="delete">Delete</a>
+                                            <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary" asp-fragment="edit">Edit</a>
+                                            <!--<a asp-action="Details" asp-route-id="@item.Id">Details</a>-->
+                                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-primary" asp-fragment="delete">Delete</a>
                                         </div>
                                     }
 

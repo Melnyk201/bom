@@ -24,7 +24,7 @@ namespace OrderFoodTeam.Controllers
         public ActionResult Index()
         {
             
-            return View(_context.Product.Include(i => i.Image).OrderBy(p => p.id).Take(4).ToList()
+            return View(_context.Product.Include(i => i.Image).OrderBy(p => p.Id).Take(4).ToList()
                 );
         }
 

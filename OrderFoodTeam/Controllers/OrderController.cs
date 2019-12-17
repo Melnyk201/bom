@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Web.Providers.Entities;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
@@ -66,6 +67,12 @@ namespace OrderFoodTeam.Controllers
 
             return View();
         }
+        public void DeleteOrder(Order order)
+        {
+           // _context.OrderDetail.Remove();
+            _context.Order.Remove(order);
+            _context.SaveChanges();
+        }
         [HttpPost]
         public ActionResult Checkout(Order order)
         {
@@ -77,6 +84,12 @@ namespace OrderFoodTeam.Controllers
             if(ModelState.IsValid)
             {
                 CreateOrder(order);
+                HttpContext.Session.Clear();
+                RemoveShopItems();
+                //DeleteOrder(order);
+                //
+                // ShopCart.ClearSession()
+                //ISession session = services.GetRequiredService<IHttpContextAccessor>()?.HttpContext.Session;
                 return RedirectToAction("Complete");
             }
             return View(order);
@@ -87,6 +100,20 @@ namespace OrderFoodTeam.Controllers
             
             return View();
         }
-        
+        public void RemoveShopItems()
+        {
+            var items = _context.ShopCartItem
+                .Where(c => c.ShopCartId == _shopCart.ShopCartId);
+            foreach(var pr in items)
+            {
+                _context.ShopCartItem.Remove(pr);
+              
+            }
+            _context.SaveChanges();
+
+
+
+        }
+
     }
 }
