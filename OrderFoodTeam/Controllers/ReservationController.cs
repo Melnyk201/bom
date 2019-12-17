@@ -27,16 +27,25 @@ namespace OrderFoodTeam.Controllers
         public IActionResult Submit(string people, string date, string time, string name, int table)
         {
 
-            int p; 
+            int p;
+            
             Int32.TryParse(people, out p);
             var userId = Guid.Parse((User.Identity.GetUserId()));
             Reservation reserv = new Reservation { Quantity = p, ReservationDate = date, ReservationTime = time, FullName = name, NumberTable = table,UserId = userId };
             _context.Add(reserv);
+            var ResTable = _context.Table
+                .Where(c => c.id == table)
+                .FirstOrDefault();
+
+            // Внести изменения
+            ResTable.Reserved = true;
+
+            // Сохранить изменения
             _context.SaveChangesAsync();
 
             return View(reserv);
 
-             
+
 
 
 
@@ -49,40 +58,46 @@ namespace OrderFoodTeam.Controllers
             
         }
 
-        /*public async Task<IActionResult> Delete(int? id)
+        public IActionResult MyRes()
         {
-            if (id == null)
+
+            List<Reservation> UserReservs = new List<Reservation>();
+            var Reserves = _context.Reservation.ToList();
+            var userId = Guid.Parse((User.Identity.GetUserId()));
+
+           
+
+            foreach (var reserve in Reserves)
             {
-                return NotFound();
+                if (reserve.UserId == userId)
+                {
+                    UserReservs.Add(reserve);
+                }
             }
 
-            var reservation = await _context.Reservation
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (reservation == null)
-            {
-                return NotFound();
-            }
+            return View(UserReservs);
 
-            return View(reservation);
+
+
         }
 
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            var reserv = await _context.Reservation.FindAsync(id);
-            _context.Reservation.Remove(reserv);
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
-        }*/
         public ActionResult Delete(int id)
         {
             Reservation b = _context.Reservation.Find(id);
             if (b != null)
             {
                 _context.Reservation.Remove(b);
-                _context.SaveChanges();
+
             }
+            var ResTable = _context.Table
+           .Where(c => c.id == b.NumberTable)
+           .FirstOrDefault();
+
+            // Внести изменения
+            ResTable.Reserved = false;
+
+            // Сохранить изменения
+            _context.SaveChangesAsync();
             return RedirectToAction("Index");
         }
     }

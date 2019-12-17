@@ -1,0 +1,62 @@
+﻿@model IEnumerable<OrderFoodTeam.Models.Reservation>
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+@{
+    ViewBag.Title = "AllReservs";
+}
+
+
+@if (SignInManager.IsSignedIn(User))
+{
+    <div class="col-md-12">
+        <h4>All Reservs:</h4>
+    
+    <table class="table">
+        <tr>
+            <td><h6>Delete</h6></td>
+            <td><h6>Name</h6></td>
+            <td><h6> Quantity</h6></td>
+            <td><h6>ReservationDate</h6></td>
+            <td><h6>ReservationTime</h6></td>
+            <td><h6>Table Number</h6></td>
+
+
+        </tr>
+
+        @foreach (var item in Model)
+        {
+    <tr>
+        <td>
+
+
+
+            <form asp-action="Delete" class="button_delete">
+                <input name="id" type="hidden" asp-for="@item.Id" />
+                <input type="submit" value="Delete" class="btn btn-primary" />
+
+            </form>
+        </td>
+        <td><h6> @item.FullName</h6></td>
+        <td><h6>@item.Quantity</h6></td>
+        <td><h6>@item.ReservationDate </h6></td>
+        <td><h6>@item.ReservationTime</h6></td>
+        <td><h6>@item.NumberTable</h6></td>
+
+    </tr>
+        }
+    </table>
+        </div>
+}
+else
+{
+    <div class="white_container register_container">
+        <h2 class="primary-heading">For reservation you need: </h2><hr>
+        <div class="col-md-4 col-md-offset-4 but_for_reserv">
+            <a class="btn btn-lg btn-primary btn-block" asp-area="Identity" asp-page="/Account/Login" asp-fragment="login">Login</a>
+        </div>
+        <div class="col-md-4 col-md-offset-4">
+            <a class="btn btn-lg btn-primary btn-block" asp-area="Identity" asp-page="/Account/Register" asp-fragment="registration">Registration</a>
+        </div>
+    </div>
+}

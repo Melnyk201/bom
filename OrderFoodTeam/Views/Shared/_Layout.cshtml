@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -37,9 +40,14 @@
                     <li> <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Location" asp-fragment="location">Location</a></li>
                     @if (User.IsInRole("admin"))
                     {
-                        <li> <a class="nav-link text-dark" asp-area="" asp-controller="Reservation" asp-action="Watch">All Reserv</a></li>
+                        <li> <a class="nav-link text-dark" asp-area="" asp-controller="Reservation" asp-action="Watch">View All Reserv</a></li>
 
                     }
+                    else if ((SignInManager.IsSignedIn(User)) && (!User.IsInRole("admin")))
+                    {
+                        <li> <a class="nav-link text-dark" asp-area="" asp-controller="Reservation" asp-action="MyRes">My Reservations</a></li>
+                    }
+                    
                     <partial name="_LoginPartial" />
                 </ul>
             </div>
@@ -141,7 +149,6 @@
         </div>
     </footer>
     <!---->
-   
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js"></script>

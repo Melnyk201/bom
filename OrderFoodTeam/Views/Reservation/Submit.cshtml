@@ -8,22 +8,24 @@
 @if (User.IsInRole("admin"))
 {
     <a asp-action="Watch" class="btn btn-primary">Watch</a>
-    
+
 
 }
 else
 {
-    <div class="col-md-12">
-        <h2>Your reservation is successful!</h2>
+<div class="col-md-12">
+    <h2>Your reservation is successful!</h2>
 
-        <hr />
-        <hr />
-        <hr />
-        <hr />
-        <hr />
-        <hr />
-        <hr />
-    </div>
+    <a asp-action="Myres" class="btn btn-primary">MyReservation</a>
+
+    <hr />
+    <hr />
+    <hr />
+    <hr />
+    <hr />
+    <hr />
+    <hr />
+</div>
 
 }
 
