@@ -4,43 +4,37 @@
 }
 
 
-    <div class="col-md-12">
-        <h4>All Reservs:</h4>
 
-        <table class="table">
-            <tr>
-                <td><h6>Delete</h6></td>
-                <td><h6>Name</h6></td>
-                <td><h6> Quantity</h6></td>
-                <td><h6>ReservationDate</h6></td>
-                <td><h6>ReservationTime</h6></td>
-                <td><h6>Table Number</h6></td>
+<p>AllReservs:</p>
+<table class="table">
+    <tr>
+        <td>Delete</td>
+        <td>Name</td>
+        <td> Quantity</td>
+        <td>ReservationDate</td>
+        <td>ReservationTime</td>
 
 
-            </tr>
+    </tr>
 
-            @foreach (var item in Model)
-            {
-                <tr>
-                    <td>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
 
 
 
-                        <form asp-action="Delete" class="button_delete">
-                            <input name="id" type="hidden" asp-for="@item.Id" />
-                            <input type="submit" value="Delete" class="btn btn-primary" />
-
-                        </form>
-                    </td>
-                    <td><h6> @item.FullName</h6></td>
-                    <td><h6>@item.Quantity</h6></td>
-                    <td><h6>@item.ReservationDate </h6></td>
-                    <td><h6>@item.ReservationTime</h6></td>
-                    <td><h6>@item.NumberTable</h6></td>
-
-                </tr>
-            }
-        </table>
-    </div>
+                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-primary" asp-fragment="delete">Delete</a>
 
 
+
+            </td>
+            <td> @item.FullName</td>
+            <td>@item.Quantity</td>
+            <td>@item.ReservationDate </td>
+            <td>@item.ReservationTime</td>
+
+
+        </tr>
+    }
+</table>
