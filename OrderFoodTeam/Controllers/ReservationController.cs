@@ -81,25 +81,57 @@ namespace OrderFoodTeam.Controllers
 
         }
 
-        public async Task<ActionResult> Delete(int id)
+        public IActionResult Delete(int? Id)
         {
-            Reservation b = _context.Reservation.Find(id);
-            if (b != null)
+            if (Id == null)
             {
-                _context.Reservation.Remove(b);
-
-                await _context.SaveChangesAsync();
+                return NotFound();
             }
-            var ResTable = _context.Table
-           .Where(c => c.id == b.NumberTable)
-           .FirstOrDefault();
 
-            // Внести изменения
-            ResTable.Reserved = false;
+            var reserv = _context.Reservation
+                .FirstOrDefault(m => m.Id == Id);
+            if (reserv == null)
+            {
+                return NotFound();
+            }
 
-            // Сохранить изменения
-            await _context.SaveChangesAsync();
-            return RedirectToAction("MyRes");
+            return View(reserv);
         }
+
+
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(int Id)
+        {
+            var reserv = await _context.Reservation.FindAsync(Id);
+            
+            _context.Reservation.Remove(reserv);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(MyRes));
+        }
+
+        /* public async Task<ActionResult> Delete(int id)
+         {
+
+
+             Reservation b = _context.Reservation.Find(id);
+             if (b != null)
+             {
+                 _context.Reservation.Remove(b);
+
+                 await _context.SaveChangesAsync();
+             }
+             var ResTable = _context.Table
+            .Where(c => c.id == b.NumberTable)
+            .FirstOrDefault();
+
+             // Внести изменения
+             ResTable.Reserved = false;
+
+             // Сохранить изменения
+             await _context.SaveChangesAsync();
+             return RedirectToAction("MyRes");
+         }*/
     }
 }
+

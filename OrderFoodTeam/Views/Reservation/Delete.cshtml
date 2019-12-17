@@ -41,13 +41,19 @@
                         <dd>
                             @Html.DisplayFor(model => model.ReservationTime)
                         </dd>
-                        
+                        <dt>
+                            @Html.DisplayNameFor(model => model.NumberTable)
+                        </dt>
+                        <dd>
+                            @Html.DisplayFor(model => model.NumberTable)
+                        </dd>
+
                     </dl>
 
                     <form asp-action="Delete" class="button_delete">
                         <input type="hidden" asp-for="Id" />
                         <input type="submit" value="Delete" class="btn btn-primary" />
-                        <a asp-action="Watch" class="btn btn-primary">Back to List</a>
+                        <a asp-action="Myres" class="btn btn-primary">Back to List</a>
                     </form>
                 </div>
             </div>
