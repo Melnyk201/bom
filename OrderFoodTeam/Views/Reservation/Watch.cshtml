@@ -4,39 +4,47 @@
 }
 
 
-
-    <div class="col-md-12">
-        <h4>All Reservs:</h4>
-        <table class="table">
-            <tr>
-                <td><h5>Delete</h5></td>
-                <td><h5>Name</h5></td>
-                <td><h5> Quantity</h5></td>
-                <td><h5>ReservationDate</h5></td>
-                <td><h5>ReservationTime</h5></td>
-
-
-            </tr>
-
-            @foreach (var item in Model)
-            {
-                <tr>
-                    <td>
+    <div class="white_container register_container nav_top_menu" id="reservation">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                  
+                        <h2>All Reservs:</h2>
+                        <hr>
+                        <table class="table">
+                            <tr>
+                                <td><h5>Delete</h5></td>
+                                <td><h5>Name</h5></td>
+                                <td><h5> Quantity</h5></td>
+                                <td><h5>ReservationDate</h5></td>
+                                <td><h5>ReservationTime</h5></td>
 
 
+                            </tr>
 
-                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-primary" asp-fragment="delete">Delete</a>
-
-
-
-                    </td>
-                    <td><h5> @item.FullName</h5></td>
-                    <td><h5>@item.Quantity</h5></td>
-                    <td><h5>@item.ReservationDate</h5> </td>
-                    <td><h5>@item.ReservationTime</h5></td>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>
 
 
-                </tr>
-            }
-        </table>
+
+                                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-primary" asp-fragment="delete">Delete</a>
+
+
+
+                                    </td>
+                                    <td><h5> @item.FullName</h5></td>
+                                    <td><h5>@item.Quantity</h5></td>
+                                    <td><h5>@item.ReservationDate</h5> </td>
+                                    <td><h5>@item.ReservationTime</h5></td>
+
+
+                                </tr>
+                            }
+                        </table>
+                   
+                </div>
+            </div>
         </div>
+    </div>

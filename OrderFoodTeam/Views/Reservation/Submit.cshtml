@@ -4,30 +4,30 @@
 @{
     ViewData["Title"] = "Submit";
 }
-<h2>Submit</h2>
-@if (User.IsInRole("admin"))
-{
-    <a asp-action="Watch" class="btn btn-primary">Watch</a>
+<div class="white_container register_container nav_top_menu" id="reservation">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Submit</h2>
+                @if (User.IsInRole("admin"))
+                {
+                    <a asp-action="Watch" class="btn btn-primary" style="margin: 0 auto; display:table">Watch</a>
 
 
-}
-else
-{
-<div class="col-md-12">
-    <h2>Your reservation is successful!</h2>
+                }
+                else
+                {
+                    <div class="col-md-12">
+                        <h2>Your reservation is successful!</h2>
 
-    <a asp-action="Myres" class="btn btn-primary">MyReservation</a>
+                        <a asp-action="Myres" class="btn btn-primary" style="margin: 0 auto; display:table">MyReservation</a>
 
-    <hr />
-    <hr />
-    <hr />
-    <hr />
-    <hr />
-    <hr />
-    <hr />
+                    </div>
+
+                }
+            </div>
+        </div>
+    </div>
 </div>
-
-}
-
 
 

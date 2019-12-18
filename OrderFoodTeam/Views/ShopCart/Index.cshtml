@@ -17,7 +17,7 @@
                     <hr />
                     <div class="container">
 
-                       
+
                         @foreach (var el in Model.shopCart.ListShopItems)
                         {
 
@@ -27,12 +27,21 @@
                                 <b>Amount: </b>@el.Amount<br>
                                 <a class="btn btn-primary" asp-controller="ShopCart" asp-action="RemoveFromShoppingCart" asp-route-id="@el.Product.Id">Delete</a>
                             </div>
-                            
+
                         }
-                        <hr>
-                        <a class="btn btn-primary" asp-controller="Order" asp-action="Checkout" asp-fragment="checkout">Pay</a>
-                        <a class="btn btn-primary" asp-controller="Product" asp-action="Menu" asp-fragment="menu">Back to menu</a>
+                       
+                        @if (Model.shopCart.ListShopItems.Count == 0)
+                        {
+                            <h3 class="registerMylass">Your cart is empty</h3>
+                            <a class="btn btn-primary" asp-controller="Order" asp-action="Checkout" asp-fragment="checkout" style="display:none">Pay</a>
+                        }
+                        else
+                        {
+                        <a class="btn btn-primary" asp-controller="Order" asp-action="Checkout" asp-fragment="checkout" style="margin:0 auto; display:table">Pay</a>
+                        }
+                        <a class="btn btn-primary" asp-controller="Product" asp-action="Menu" asp-fragment="menu" style="margin:0 auto; display:table">Back to menu</a>
                         <!-- <a asp-action="Index" asp-controller="OrderDetail" class="btn btn-primary" asp-fragment="orderdetail">Show</a>-->
+
                     </div>
                 }
                 else
